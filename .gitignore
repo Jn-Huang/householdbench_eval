@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv
+*.log
+*.out
+*.err
+
+# Benchmark data and pipeline outputs (see README "Rebuilding all 32 tasks")
+/data
+/output
+
+# Model predictions and scoring results (see README "Quickstart" and "Batch scoring")
+/predictions
+/results
+/runs

@@ -1,0 +1,10 @@
+target_name,item_name,item_code,series_id,series_title,seasonal,area_code,periodicity_code,base_code,base_period,begin_year,begin_period,end_year,end_period
+cpi_all_items,All items,SA0,CUSR0000SA0,"All items in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1947,M01,2026,M07
+cpi_apparel,Apparel,SAA,CUSR0000SAA,"Apparel in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1947,M01,2026,M07
+cpi_education_communication,Education and communication,SAE,CUSR0000SAE,"Education and communication in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,DECEMBER 1997=100,1993,M01,2026,M07
+cpi_food_beverages,Food and beverages,SAF,CUSR0000SAF,"Food and beverages in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1967,M01,2026,M07
+cpi_housing,Housing,SAH,CUSR0000SAH,"Housing in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1967,M01,2026,M07
+cpi_medical_care,Medical care,SAM,CUSR0000SAM,"Medical care in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1947,M01,2026,M07
+cpi_other_goods_services,Other goods and services,SAG,CUSR0000SAG,"Other goods and services in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1967,M01,2026,M07
+cpi_recreation,Recreation,SAR,CUSR0000SAR,"Recreation in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,DECEMBER 1997=100,1993,M01,2026,M07
+cpi_transportation,Transportation,SAT,CUSR0000SAT,"Transportation in U.S. city average, all urban consumers, seasonally adjusted",S,0000,R,S,1982-84=100,1947,M01,2026,M07

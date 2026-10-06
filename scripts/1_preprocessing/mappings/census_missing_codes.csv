@@ -1,0 +1,44 @@
+variable,code,code_numeric,label,source
+OWNERSHP,0,0.0,N/A,codebook_text
+RENTGRS,00000,0.0,N/A,codebook_text
+VALUEH,9999998,9999998.0,Missing,codebook_text
+VALUEH,9999999,9999999.0,N/A,codebook_text
+ROOMS,00,0.0,N/A,codebook_text
+SEX,9,9.0,Missing/blank,codebook_text
+AGE,999,999.0,Missing,codebook_text
+RACED,120,120.0,Blank (white),codebook_text
+RACED,997,997.0,Unknown,codebook_text
+SCHOOL,0,0.0,N/A,codebook_text
+SCHOOL,8,8.0,Unknown,codebook_text
+SCHOOL,9,9.0,Missing,codebook_text
+EDUC,00,0.0,N/A or no schooling,codebook_text
+EDUC,99,99.0,Missing,codebook_text
+EDUCD,000,0.0,N/A or no schooling,codebook_text
+EDUCD,001,1.0,N/A,codebook_text
+EDUCD,999,999.0,Missing,codebook_text
+GRADEATT,0,0.0,N/A,codebook_text
+GRADEATTD,00,0.0,N/A,codebook_text
+EMPSTAT,0,0.0,N/A,codebook_text
+EMPSTAT,9,9.0,Unknown/Illegible,codebook_text
+LABFORCE,0,0.0,N/A,codebook_text
+LABFORCE,9,9.0,Unclassifiable (employment status unknown),codebook_text
+CLASSWKR,0,0.0,N/A,codebook_text
+CLASSWKR,9,9.0,Unknown,codebook_text
+OCC1950,997,997.0,Occupation missing/unknown,codebook_text
+OCC1950,999,999.0,N/A (blank),codebook_text
+OCC1990,999,999.0,Unknown,codebook_text
+IND1950,000,0.0,N/A or none reported,codebook_text
+IND1950,999,999.0,Blank or blank equivalent,codebook_text
+IND1990,000,0.0,N/A (not applicable),codebook_text
+WKSWORK2,0,0.0,N/A,codebook_text
+UHRSWORK,00,0.0,N/A,codebook_text
+WORKEDYR,0,0.0,N/A,codebook_text
+MIGRATE5,0,0.0,N/A,codebook_text
+MIGRATE5,9,9.0,Unknown,codebook_text
+MIGPLAC5,000,0.0,N/A,codebook_text
+MIGPLAC5,900,900.0,Abroad (unknown) or at sea,codebook_text
+MIGPLAC5,999,999.0,Missing/unknown,codebook_text
+MIGMETRO5,0,0.0,N/A,codebook_text
+MIGCITY5,0000,0.0,N/A and not identifiable,codebook_text
+MIGCITY5,0001,1.0,Not ascertained,codebook_text
+MIGCITY5,9999,9999.0,Unknown,codebook_text

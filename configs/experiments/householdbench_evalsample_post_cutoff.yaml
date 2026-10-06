@@ -1,0 +1,31 @@
+name: householdbench_evalsample_post_cutoff
+description: >
+  Scores externally generated predictions on the HouseholdBench evaluation
+  sample's post-cutoff prompts (8 tasks, 1,500 rows). Metrics are fixed by target type.
+  Run from the repository root after downloading the evaluation sample into
+  data/householdbench_evalsample/ (see the README quickstart), with one
+  prediction JSONL per task under
+  {prediction_root}/post_cutoff/<task>.jsonl.
+data_root: data/householdbench_evalsample
+prediction_root: predictions/REPLACE_WITH_MODEL_NAME
+output_dir: results
+gold_path_template: "{data_root}/{split}/{task}.jsonl"
+prediction_path_template: "{prediction_root}/{split}/{task}.jsonl"
+model:
+  model_type: external_predictions
+  model_name: REPLACE_WITH_MODEL_NAME
+run:
+  split: post_cutoff
+  include_details: true
+task_groups:
+  - name: householdbench_evalsample_post_cutoff
+    output_subdir: post_cutoff
+    tasks:
+      - cons_sce_growth
+      - cons_sce_shock
+      - house_sce_move
+      - income_sce_growth
+      - labor_sce_risk
+      - labor_sce_search
+      - macro_sce_revision
+      - macro_sce_uncertainty

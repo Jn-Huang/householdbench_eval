@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install the locked environment with the pipeline extra
+        run: uv sync --locked --extra pipeline
+      - name: Lint
+        run: uv run ruff check src tests
+      - name: Import the pipeline libraries
+        run: uv run python -c "import sys; sys.path.insert(0, '.'); from scripts.utils.source_inputs import check_production_dependencies; check_production_dependencies()"
+      - name: Compile pipeline scripts
+        run: uv run python -m compileall -q scripts
+      - name: Test
+        run: uv run pytest -q

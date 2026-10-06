@@ -1,0 +1,40 @@
+name: householdbench_evalsample_pre_cutoff
+description: >
+  Scores externally generated predictions on the HouseholdBench evaluation
+  sample's pre-cutoff prompts (17 tasks, 3,200 rows). Metrics are fixed by target type.
+  Run from the repository root after downloading the evaluation sample into
+  data/householdbench_evalsample/ (see the README quickstart), with one
+  prediction JSONL per task under
+  {prediction_root}/pre_cutoff/<task>.jsonl.
+data_root: data/householdbench_evalsample
+prediction_root: predictions/REPLACE_WITH_MODEL_NAME
+output_dir: results
+gold_path_template: "{data_root}/{split}/{task}.jsonl"
+prediction_path_template: "{prediction_root}/{split}/{task}.jsonl"
+model:
+  model_type: external_predictions
+  model_name: REPLACE_WITH_MODEL_NAME
+run:
+  split: pre_cutoff
+  include_details: true
+task_groups:
+  - name: householdbench_evalsample_pre_cutoff
+    output_subdir: pre_cutoff
+    tasks:
+      - cons_cex_categories
+      - cons_cex_rebate01
+      - cons_cex_stimulus08
+      - cons_cex_total
+      - cons_sce_growth
+      - cons_sce_shock
+      - house_sce_financing
+      - house_sce_lockin
+      - house_sce_move
+      - income_sce_growth
+      - income_sce_policy
+      - labor_sce_offer
+      - labor_sce_reswage
+      - labor_sce_risk
+      - labor_sce_search
+      - macro_sce_revision
+      - macro_sce_uncertainty

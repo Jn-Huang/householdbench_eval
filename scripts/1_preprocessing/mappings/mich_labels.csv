@@ -1,0 +1,1038 @@
+label_set,code,label
+SAMPLE,1,Landline RDD Interview
+SAMPLE,2,Landline RDD Reinterview
+SAMPLE,3,Cell RDD Interview
+SAMPLE,4,Cell RDD Reinterview
+SAMPLE,5,Cell RDD Second Reinterview
+SAMPLE,6,Fresh ABS Web Interview
+SAMPLE,7,First ABS Web Reinterview
+SAMPLE,8,Second ABS Web Reinterview
+METHOD,1,Telephone (CATI)
+METHOD,2,Web
+METHOD,3,Telephone (paper and pencil)
+METHOD,4,In-person
+PAGO,1,Better now
+PAGO,3,Same
+PAGO,5,Worse now
+PAGO,8,DK
+PAGO,9,NA
+PAGOR1,0,No change and no pro-con reason given
+PAGOR1,10,FAV Better pay
+PAGOR1,11,FAV Higher income from self-employment or property
+PAGOR1,12,"FAV More work, hence more income"
+PAGOR1,13,FAV Increased contributions from outside FU
+PAGOR1,14,FAV Lower prices
+PAGOR1,15,FAV Lower taxes; low or unchanged taxes
+PAGOR1,16,FAV Decreased expenses
+PAGOR1,18,FAV Higher interest rates; tight credit
+PAGOR1,19,FAV Better asset position
+PAGOR1,20,"FAV Debt, interest or debt payments low or lower"
+PAGOR1,21,FAV Change in family composition - higher income or better off
+PAGOR1,23,"FAV Good times, no recession (not codeable above)"
+PAGOR1,27,FAV Other reasons for making FU better off
+PAGOR1,38,FAV Reference to government economic policy
+PAGOR1,39,FAV Income tax refund
+PAGOR1,50,UNFAV Lower pay
+PAGOR1,51,UNFAV Lower income from self-employment or property
+PAGOR1,52,"UNFAV Less work, hence less income"
+PAGOR1,53,UNFAV Decreased/Unchanged contributions from outside FU
+PAGOR1,54,UNFAV High(er) prices
+PAGOR1,55,UNFAV Higher interest rates; tight credit
+PAGOR1,56,"UNFAV High, higher taxes (except 57)"
+PAGOR1,57,UNFAV Income taxes
+PAGOR1,58,UNFAV Increased expenses; more people to be supported by FU
+PAGOR1,59,UNFAV Worse asset position
+PAGOR1,60,UNFAV Debt
+PAGOR1,61,UNFAV Change in family composition - lower income or worse off
+PAGOR1,63,"UNFAV Bad times, recession (not codeable above)"
+PAGOR1,64,UNFAV Strike(s)-- not codeable in 52
+PAGOR1,67,UNFAV Other reasons for making FU worse off
+PAGOR1,78,UNFAV Reference to government economic policy
+PAGOR1,98,DK
+PAGOR1,99,NA
+PAGOR1,333,No change and no pro-con reason given (Web only)
+PAGOR2,0,No second mention
+PAGOR2,10,FAV Better pay
+PAGOR2,11,FAV Higher income from self-employment or property
+PAGOR2,12,"FAV More work, hence more income"
+PAGOR2,13,FAV Increased contributions from outside FU
+PAGOR2,14,FAV Lower prices
+PAGOR2,15,FAV Lower taxes; low or unchanged taxes
+PAGOR2,16,FAV Decreased expenses
+PAGOR2,18,FAV Higher interest rates; tight credit
+PAGOR2,19,FAV Better asset position
+PAGOR2,20,"FAV Debt, interest or debt payments low or lower"
+PAGOR2,21,FAV Change in family composition - higher income or better off
+PAGOR2,23,"FAV Good times, no recession (not codeable above)"
+PAGOR2,27,FAV Other reasons for making FU better off
+PAGOR2,38,FAV Reference to government economic policy
+PAGOR2,39,FAV Income tax refund
+PAGOR2,50,UNFAV Lower pay
+PAGOR2,51,UNFAV Lower income from self-employment or property
+PAGOR2,52,"UNFAV Less work, hence less income"
+PAGOR2,53,UNFAV Decreased/Unchanged contributions from outside FU
+PAGOR2,54,UNFAV High(er) prices
+PAGOR2,55,UNFAV Higher interest rates; tight credit
+PAGOR2,56,"UNFAV High, higher taxes (except 57)"
+PAGOR2,57,UNFAV Income taxes
+PAGOR2,58,UNFAV Increased expenses; more people to be supported by FU
+PAGOR2,59,UNFAV Worse asset position
+PAGOR2,60,UNFAV Debt
+PAGOR2,61,UNFAV Change in family composition - lower income or worse off
+PAGOR2,63,"UNFAV Bad times, recession (not codeable above)"
+PAGOR2,64,UNFAV Strike(s)-- not codeable in 52
+PAGOR2,67,UNFAV Other reasons for making FU worse off
+PAGOR2,78,UNFAV Reference to government economic policy
+PAGOR2,98,DK
+PAGOR2,99,NA
+PAGOR2,333,No change and no pro-con reason given (Web only)
+PAGO5,1,Better now
+PAGO5,3,Same
+PAGO5,5,Worse now
+PAGO5,8,DK
+PAGO5,9,NA
+PEXP,1,Will be better off
+PEXP,3,Same
+PEXP,5,Will be worse off
+PEXP,8,DK
+PEXP,9,NA
+PEXP5,1,Will be better off
+PEXP5,3,Same
+PEXP5,5,Will be worse off
+PEXP5,8,DK
+PEXP5,9,NA
+INEXQ1,1,Higher
+INEXQ1,2,Higher at same rate as now
+INEXQ1,3,About the same
+INEXQ1,5,Lower
+INEXQ1,8,DK
+INEXQ1,9,NA
+INEXQ2,95,95% or more
+INEXQ2,98,DK
+INEXQ2,99,NA
+INEX,-97,DK how much down
+INEX,96,DK how much up
+INEX,98,DK whether up or down
+INEX,99,NA
+RINC,1,Income up more than prices
+RINC,3,Income up same as prices
+RINC,5,Income up less than prices
+RINC,8,DK
+RINC,9,NA
+BAGO,1,Better now
+BAGO,3,About the same
+BAGO,5,Worse now
+BAGO,8,DK
+BAGO,9,NA
+BEXP,1,Better a year from now
+BEXP,3,About the same
+BEXP,5,Worse a year from now
+BEXP,8,DK
+BEXP,9,NA
+BUS12,1,Good times
+BUS12,2,Good with qualifications
+BUS12,3,Pro-con
+BUS12,4,Bad with qualifications
+BUS12,5,Bad times
+BUS12,8,DK
+BUS12,9,NA
+BUS5,1,Good times
+BUS5,2,Good with qualifications
+BUS5,3,Pro-con
+BUS5,4,Bad with qualifications
+BUS5,5,Bad times
+BUS5,98,DK
+BUS5,99,NA
+NEWS1,0,Has heard of no changes
+NEWS1,10,"FAV Elections, admin, Congress, President"
+NEWS1,11,"FAV More military spending, more war/tensions (fav)"
+NEWS1,12,"FAV Less military spending, few tensions"
+NEWS1,13,FAV Gov't programs improved
+NEWS1,14,FAV Specific gov't programs incr/cont
+NEWS1,15,FAV Specific gov't programs decr/end
+NEWS1,16,"FAV Taxes, changes/reforms, rebates"
+NEWS1,17,FAV Other references to gov't
+NEWS1,18,"FAV Fiscal policy, budgets, deficits"
+NEWS1,19,FAV Gov't improving business condition
+NEWS1,20,"FAV Opening of plants, factories, stores"
+NEWS1,21,FAV Consumer/auto demand high
+NEWS1,22,"FAV Purch power high, wages high"
+NEWS1,23,"FAV Employ is high, plenty of jobs"
+NEWS1,24,"FAV Population increase, more people to buy"
+NEWS1,25,"FAV Low debts, higher savings/assets, invest up"
+NEWS1,27,FAV Other references to employ and purch power
+NEWS1,28,"FAV Production increasing, GNP is up"
+NEWS1,29,"FAV Unemp has risen, good for economy"
+NEWS1,30,"FAV Tight money, int rates high"
+NEWS1,31,"FAV Lower/stable prices, less inflation"
+NEWS1,32,"FAV Higher prices, inflation is good"
+NEWS1,33,"FAV Easier money, credit easy to get, low int rates"
+NEWS1,34,FAV Crowd funding
+NEWS1,35,FAV Profits high/rising
+NEWS1,36,"FAV Stock market, rise in price of stocks"
+NEWS1,37,FAV Other references to prices/credit
+NEWS1,38,"FAV Balance of payments, dollar devalue"
+NEWS1,39,FAV Controls (price or wage)
+NEWS1,40,"FAV Better race relations, less crime"
+NEWS1,41,"FAV Union disputes settled, relations good"
+NEWS1,42,FAV Times/business is good in the coming year
+NEWS1,43,"FAV Bad times can't last, due for good times"
+NEWS1,44,FAV R sees sign of improvement already
+NEWS1,45,FAV Improvements in specific industries
+NEWS1,46,"FAV Farm situation good, crops good"
+NEWS1,47,FAV Other good factors or favorable ref
+NEWS1,48,"FAV Economy more stable, optimism"
+NEWS1,49,"FAV Energy crisis, pollution"
+NEWS1,50,"UNFAV Election, new admin/President"
+NEWS1,51,"UNFAV More military spending, more war/tensions"
+NEWS1,52,"UNFAV Less military spending, few tensions"
+NEWS1,53,UNFAV Specific gov't spend programs changed
+NEWS1,54,UNFAV Specific gov't spend programs eliminated
+NEWS1,55,UNFAV Gov't progams begun/increased
+NEWS1,56,"UNFAV Taxes, changes/reforms, rebates"
+NEWS1,57,UNFAV Other references to gov't
+NEWS1,58,"UNFAV Fiscal policy, budgets, deficits"
+NEWS1,59,UNFAV Gov't not improving business conditions
+NEWS1,60,"UNFAV Closing of plants, factories, stores"
+NEWS1,61,UNFAV Consumer/auto demand low
+NEWS1,62,"UNFAV Lack of purch power, no money to spend"
+NEWS1,63,"UNFAV Drop in employ, less overtime"
+NEWS1,64,"UNFAV Population increase, immigration"
+NEWS1,65,"UNFAV High(er) debts, lower savings/assets"
+NEWS1,67,UNFAV Other references to employ/purch power
+NEWS1,68,"UNFAV Production decreasing, GNP down"
+NEWS1,69,UNFAV Real estate/housing market in decline; slumping housing market
+NEWS1,70,UNFAV Financial crisis; financial institutions closing/having problems
+NEWS1,71,"UNFAV Prices falling, deflation"
+NEWS1,72,"UNFAV Prices high, inflation"
+NEWS1,73,"UNFAV Tight money, int rates high"
+NEWS1,74,"UNFAV Profits low, falling"
+NEWS1,75,"UNFAV Profits high, too high"
+NEWS1,76,UNFAV Stock market decline
+NEWS1,77,UNFAV Other price/credit references
+NEWS1,78,"UNFAV Balance of payments, dollar devalue"
+NEWS1,79,UNFAV Controls (price or wage)
+NEWS1,80,UNFAV Bad race relations; more crime
+NEWS1,81,UNFAV Excessive wage demands by unions; labor unrest
+NEWS1,82,UNFAV Times are bad now and won't change in next year
+NEWS1,83,"UNFAV Good times can't last, due for a fall"
+NEWS1,84,"UNFAV R sees downward trends, has heard business is bad"
+NEWS1,85,UNFAV Decline in specific industries
+NEWS1,86,"UNFAV Farm situation is bad, low farm prices, drought"
+NEWS1,87,UNFAV Other unfavorable/bad factors
+NEWS1,88,"UNFAV Economy in general less stable, lack of confidence"
+NEWS1,89,"UNFAV Energy crisis, pollution, less natural resources"
+NEWS1,90,UNFAV Business/Accounting scandals
+NEWS1,97,Change mentioned but NA whether favorable/unfavorable
+NEWS1,98,DK
+NEWS1,99,NA
+NEWS2,0,"Has heard of no changes, no second mention"
+NEWS2,10,"FAV Elections, admin, Congress, President"
+NEWS2,11,"FAV More military spending, more war/tensions (fav)"
+NEWS2,12,"FAV Less military spending, few tensions"
+NEWS2,13,FAV Gov't programs improved
+NEWS2,14,FAV Specific gov't programs incr/cont
+NEWS2,15,FAV Specific gov't programs decr/end
+NEWS2,16,"FAV Taxes, changes/reforms, rebates"
+NEWS2,17,FAV Other references to gov't
+NEWS2,18,"FAV Fiscal policy, budgets, deficits"
+NEWS2,19,FAV Gov't improving business condition
+NEWS2,20,"FAV Opening of plants, factories, stores"
+NEWS2,21,FAV Consumer/auto demand high
+NEWS2,22,"FAV Purch power high, wages high"
+NEWS2,23,"FAV Employ is high, plenty of jobs"
+NEWS2,24,"FAV Population increase, more people to buy"
+NEWS2,25,"FAV Low debts, higher savings/assets, invest up"
+NEWS2,27,FAV Other references to employ and purch power
+NEWS2,28,"FAV Production increasing, GNP is up"
+NEWS2,29,"FAV Unemp has risen, good for economy"
+NEWS2,30,"FAV Tight money, int rates high"
+NEWS2,31,"FAV Lower/stable prices, less inflation"
+NEWS2,32,"FAV Higher prices, inflation is good"
+NEWS2,33,"FAV Easier money, credit easy to get, low int rates"
+NEWS2,34,FAV Crowd funding
+NEWS2,35,FAV Profits high/rising
+NEWS2,36,"FAV Stock market, rise in price of stocks"
+NEWS2,37,FAV Other references to prices/credit
+NEWS2,38,"FAV Balance of payments, dollar devalue"
+NEWS2,39,FAV Controls (price or wage)
+NEWS2,40,"FAV Better race relations, less crime"
+NEWS2,41,"FAV Union disputes settled, relations good"
+NEWS2,42,FAV Times/business is good in the coming year
+NEWS2,43,"FAV Bad times can't last, due for good times"
+NEWS2,44,FAV R sees sign of improvement already
+NEWS2,45,FAV Improvements in specific industries
+NEWS2,46,"FAV Farm situation good, crops good"
+NEWS2,47,FAV Other good factors or favorable ref
+NEWS2,48,"FAV Economy more stable, optimism"
+NEWS2,49,"FAV Energy crisis, pollution"
+NEWS2,50,"UNFAV Election, new admin/President"
+NEWS2,51,"UNFAV More military spending, more war/tensions"
+NEWS2,52,"UNFAV Less military spending, few tensions"
+NEWS2,53,UNFAV Specific gov't spend programs changed
+NEWS2,54,UNFAV Specific gov't spend programs eliminated
+NEWS2,55,UNFAV Gov't progams begun/increased
+NEWS2,56,"UNFAV Taxes, changes/reforms, rebates"
+NEWS2,57,UNFAV Other references to gov't
+NEWS2,58,"UNFAV Fiscal policy, budgets, deficits"
+NEWS2,59,UNFAV Gov't not improving business conditions
+NEWS2,60,"UNFAV Closing of plants, factories, stores"
+NEWS2,61,UNFAV Consumer/auto demand low
+NEWS2,62,"UNFAV Lack of purch power, no money to spend"
+NEWS2,63,"UNFAV Drop in employ, less overtime"
+NEWS2,64,"UNFAV Population increase, immigration"
+NEWS2,65,"UNFAV High(er) debts, lower savings/assets"
+NEWS2,67,UNFAV Other references to employ/purch power
+NEWS2,68,"UNFAV Production decreasing, GNP down"
+NEWS2,69,UNFAV Real estate/housing market in decline; slumping housing market
+NEWS2,70,UNFAV Financial crisis; financial institutions closing/having problems
+NEWS2,71,"UNFAV Prices falling, deflation"
+NEWS2,72,"UNFAV Prices high, inflation"
+NEWS2,73,"UNFAV Tight money, int rates high"
+NEWS2,74,"UNFAV Profits low, falling"
+NEWS2,75,"UNFAV Profits high, too high"
+NEWS2,76,UNFAV Stock market decline
+NEWS2,77,UNFAV Other price/credit references
+NEWS2,78,"UNFAV Balance of payments, dollar devalue'"
+NEWS2,79,UNFAV Controls (price or wage)
+NEWS2,80,UNFAV Bad race relations; more crime
+NEWS2,81,UNFAV Excessive wage demands by unions; labor unrest
+NEWS2,82,UNFAV Times are bad now and won't change in next year
+NEWS2,83,"UNFAV Good times can't last, due for a fall"
+NEWS2,84,"UNFAV R sees downward trends, has heard business is bad"
+NEWS2,85,UNFAV Decline in specific industries
+NEWS2,86,"UNFAV Farm situation is bad, low farm prices, drought"
+NEWS2,87,UNFAV Other unfavorable/bad factors
+NEWS2,88,"UNFAV Economy in general less stable, lack of confidence"
+NEWS2,89,"UNFAV Energy crisis, pollution, less natural resources"
+NEWS2,90,UNFAV Business/Accounting scandals
+NEWS2,97,Change mentioned but NA whether favorable/unfavorable
+NEWS2,98,DK
+NEWS2,99,NA
+UNEMP,1,More unemployment
+UNEMP,3,About the same
+UNEMP,5,Less unemployment
+UNEMP,8,DK
+UNEMP,9,NA
+GOVT,1,Good job
+GOVT,3,Only fair
+GOVT,5,Poor job
+GOVT,8,DK
+GOVT,9,NA
+RATEX,1,Go up
+RATEX,3,Stay the same
+RATEX,5,Go down
+RATEX,8,DK
+RATEX,9,NA
+PX1Q1,1,Go up
+PX1Q1,2,Go up (at same rate)
+PX1Q1,3,Same
+PX1Q1,5,Go down
+PX1Q1,8,DK
+PX1Q1,9,NA
+PX1Q2,95,95% or more
+PX1Q2,98,DK
+PX1Q2,99,NA
+PX1,-97,DK how much down
+PX1,96,DK how much up
+PX1,98,DK whether up or down
+PX1,99,NA
+PX5Q1,1,Go up
+PX5Q1,2,Go up (at same rate)
+PX5Q1,3,Same
+PX5Q1,5,Go down
+PX5Q1,8,DK
+PX5Q1,9,NA
+PX5Q2,95,95% or more
+PX5Q2,98,DK
+PX5Q2,99,NA
+PX5,-97,DK how much down
+PX5,96,DK how much up
+PX5,98,DK whether up or down
+PX5,99,NA
+DUR,1,Good
+DUR,3,Pro-con
+DUR,5,Bad
+DUR,8,DK
+DUR,9,NA
+DURRN1,0,No second mention
+DURRN1,10,FAV Interest rates won't get any lower
+DURRN1,11,"FAV Prices are low(er), prices reasonably stable"
+DURRN1,12,"FAV Good buys available, sales, discounts"
+DURRN1,13,"FAV Prices are going up, future uncertainty"
+DURRN1,14,FAV Prices won't get any lower
+DURRN1,15,FAV Lower down payment
+DURRN1,16,FAV Interest rates low
+DURRN1,17,"FAV Credit easy to get, easy money"
+DURRN1,18,"FAV Interest rates are going up, credit tighter"
+DURRN1,19,"FAV Low taxes, tax changes"
+DURRN1,21,"FAV People can afford to buy now, have money to spend"
+DURRN1,23,"FAV Buying makes for good times, prosperity"
+DURRN1,31,"FAV Supply adequate, no shortages now"
+DURRN1,32,FAV Quality is good/better/may get worse
+DURRN1,33,FAV New models have improvements/new features
+DURRN1,34,"FAV Good selection, variety"
+DURRN1,41,FAV Seasonal references only
+DURRN1,42,"FAV R says if you need it, good time as any"
+DURRN1,43,"FAV Low sales won't last, will pick up soon"
+DURRN1,47,FAV Other good reasons
+DURRN1,49,"FAV Economic policy, references to gov't/president"
+DURRN1,50,UNFAV Interest rates won't get any lower
+DURRN1,51,"UNFAV Prices are too high, prices going up"
+DURRN1,52,"UNFAV Seller's market, few sales or discounts"
+DURRN1,53,"UNFAV Prices will fall later, will come down"
+DURRN1,54,UNFAV Debt or credit is bad
+DURRN1,55,UNFAV Larger/higher down payment required
+DURRN1,56,UNFAV Interest rates high/going up
+DURRN1,57,UNFAV Credit/financing hard to get; tight money
+DURRN1,58,UNFAV Interest rates will fall later
+DURRN1,59,"UNFAV Taxes high, going higher"
+DURRN1,61,UNFAV People can't afford to buy now
+DURRN1,62,UNFAV People should save money
+DURRN1,63,"UNFAV Buying contributes to inflation, makes for bad times"
+DURRN1,65,UNFAV Energy crisis; shortages of fuels
+DURRN1,71,"UNFAV Supply inadequate, poor selection"
+DURRN1,72,"UNFAV Quality is poor, may improve later"
+DURRN1,73,UNFAV Poor designs; unattractive styling
+DURRN1,81,UNFAV R mentions only seasonal factors
+DURRN1,82,UNFAV International references
+DURRN1,87,UNFAV Other reasons why now is a bad time to buy
+DURRN1,89,"UNFAV Economic policy, references to gov't/president"
+DURRN1,98,DK
+DURRN1,99,NA
+DURRN2,0,No second mention
+DURRN2,10,FAV Interest rates won't get any lower
+DURRN2,11,"FAV Prices are low(er), prices reasonably stable"
+DURRN2,12,"FAV Good buys available, sales, discounts"
+DURRN2,13,"FAV Prices are going up, future uncertainty"
+DURRN2,14,FAV Prices won't get any lower
+DURRN2,15,FAV Lower down payment
+DURRN2,16,FAV Interest rates low
+DURRN2,17,"FAV Credit easy to get, easy money"
+DURRN2,18,"FAV Interest rates are going up, credit tighter"
+DURRN2,19,"FAV Low taxes, tax changes"
+DURRN2,21,"FAV People can afford to buy now, have money to spend"
+DURRN2,23,"FAV Buying makes for good times, prosperity"
+DURRN2,31,"FAV Supply adequate, no shortages now"
+DURRN2,32,FAV Quality is good/better/may get worse
+DURRN2,33,FAV New models have improvements/new features
+DURRN2,34,"FAV Good selection, variety"
+DURRN2,41,FAV Seasonal references only
+DURRN2,42,"FAV R says if you need it, good time as any"
+DURRN2,43,"FAV Low sales won't last, will pick up soon"
+DURRN2,47,FAV Other good reasons
+DURRN2,49,"FAV Economic policy, references to gov't/president"
+DURRN2,50,UNFAV Interest rates won't get any lower
+DURRN2,51,"UNFAV Prices are too high, prices going up"
+DURRN2,52,"UNFAV Seller's market, few sales or discounts"
+DURRN2,53,"UNFAV Prices will fall later, will come down"
+DURRN2,54,UNFAV Debt or credit is bad
+DURRN2,55,UNFAV Larger/higher down payment required
+DURRN2,56,UNFAV Interest rates high/going up
+DURRN2,57,UNFAV Credit/financing hard to get; tight money
+DURRN2,58,UNFAV Interest rates will fall later
+DURRN2,59,"UNFAV Taxes high, going higher"
+DURRN2,61,UNFAV People can't afford to buy now
+DURRN2,62,UNFAV People should save money
+DURRN2,63,"UNFAV Buying contributes to inflation, makes for bad times"
+DURRN2,65,UNFAV Energy crisis; shortages of fuels
+DURRN2,71,"UNFAV Supply inadequate, poor selection"
+DURRN2,72,"UNFAV Quality is poor, may improve later"
+DURRN2,73,UNFAV Poor designs; unattractive styling
+DURRN2,81,UNFAV R mentions only seasonal factors
+DURRN2,82,UNFAV International references
+DURRN2,87,UNFAV Other reasons why now is a bad time to buy
+DURRN2,89,"UNFAV Economic policy, references to gov't/president"
+DURRN2,98,DK
+DURRN2,99,NA
+HOM,1,Good
+HOM,3,Pro-con
+HOM,5,Bad
+HOM,8,DK
+HOM,9,NA
+HOMRN1,0,No second mention
+HOMRN1,10,FAV Interest rate won't get any lower
+HOMRN1,11,FAV Prices are low/stable/not too high
+HOMRN1,12,FAV Good buys available
+HOMRN1,13,FAV Prices are going up
+HOMRN1,14,FAV Prices won't get any lower
+HOMRN1,15,FAV Lower down payment
+HOMRN1,16,FAV Interest rates are low
+HOMRN1,17,"FAV Credit easy to get, easy money"
+HOMRN1,18,FAV Credit will be tighter later
+HOMRN1,19,"FAV Lower taxes, taxes higher later"
+HOMRN1,21,FAV People can afford to buy now
+HOMRN1,23,"FAV Buying makes for good times, prosperity"
+HOMRN1,27,FAV Other references to employment and purchasing power
+HOMRN1,31,"FAV Supply adequate, no shortages now"
+HOMRN1,32,"FAV Quality is good, better, may get worse"
+HOMRN1,33,"FAV New models have improvements, new features"
+HOMRN1,34,"FAV Good selection, variety"
+HOMRN1,41,FAV Seasonal references only
+HOMRN1,42,FAV R only says: if you need it this is a good time
+HOMRN1,43,"FAV Low sales won't last, will pick up soon"
+HOMRN1,44,"FAV Renting is unfavorable b/c high rents, shortage"
+HOMRN1,45,"FAV Owning is always a good idea, renting is a bad idea"
+HOMRN1,46,FAV Capital appreciation: buying is a good investment
+HOMRN1,47,FAV Other good reasons (misc.)
+HOMRN1,48,FAV Variable mortgage rate
+HOMRN1,49,"FAV Economic policy, references to gov't/president"
+HOMRN1,50,UNFAV Interest rates won't get any lower
+HOMRN1,51,"UNFAV Prices are too high, houses cost too much"
+HOMRN1,52,"UNFAV Seller's market, few sales or discounts"
+HOMRN1,53,"UNFAV Prices will fall later, will come down"
+HOMRN1,54,UNFAV Debt or credit bad (NA why)
+HOMRN1,55,UNFAV Higher/larger down payment required
+HOMRN1,56,"UNFAV Interest rate too high, will go up"
+HOMRN1,57,"UNFAV Credit hard to get, financing difficult"
+HOMRN1,58,UNFAV Interest rates will come down later
+HOMRN1,59,"UNFAV Tax increase, property taxes too high"
+HOMRN1,61,"UNFAV People can't afford to buy now, times are bad"
+HOMRN1,62,"UNFAV People should save money, uncertain of future"
+HOMRN1,63,UNFAV Buying contributes to inflation/makes bad times
+HOMRN1,65,"UNFAV Energy crisis, shortage of fuels"
+HOMRN1,71,"UNFAV Supply inadequate, few houses on market"
+HOMRN1,72,"UNFAV Quality is poor, quality may improve"
+HOMRN1,73,"UNFAV Poor designs, unattractive styling"
+HOMRN1,81,UNFAV R mentions only seasonal factors
+HOMRN1,82,UNFAV Difficult to get rid of present house
+HOMRN1,83,UNFAV Better return on alternative investments
+HOMRN1,84,UNFAV Renting favorable b/c of low rents
+HOMRN1,85,UNFAV Renting is always better than owning
+HOMRN1,86,"UNFAV Capital depreciation, buying is bad investment"
+HOMRN1,87,UNFAV Other reasons why now is a bad time to buy
+HOMRN1,88,UNFAV Variable mortgage rate
+HOMRN1,89,"UNFAV Economic policy, references to gov't/president"
+HOMRN1,90,Cost of (homeowners) insurance
+HOMRN1,98,DK
+HOMRN1,99,NA
+HOMRN2,0,No second mention
+HOMRN2,10,FAV Interest rate won't get any lower
+HOMRN2,11,FAV Prices are low/stable/not too high
+HOMRN2,12,FAV Good buys available
+HOMRN2,13,FAV Prices are going up
+HOMRN2,14,FAV Prices won't get any lower
+HOMRN2,15,FAV Lower down payment
+HOMRN2,16,FAV Interest rates are low
+HOMRN2,17,"FAV Credit easy to get, easy money"
+HOMRN2,18,FAV Credit will be tighter later
+HOMRN2,19,"FAV Lower taxes, taxes higher later"
+HOMRN2,21,FAV People can afford to buy now
+HOMRN2,23,"FAV Buying makes for good times, prosperity"
+HOMRN2,27,FAV Other references to employment and purchasing power
+HOMRN2,31,"FAV Supply adequate, no shortages now"
+HOMRN2,32,"FAV Quality is good, better, may get worse"
+HOMRN2,33,"FAV New models have improvements, new features"
+HOMRN2,34,"FAV Good selection, variety"
+HOMRN2,41,FAV Seasonal references only
+HOMRN2,42,FAV R only says: if you need it this is a good time
+HOMRN2,43,"FAV Low sales won't last, will pick up soon"
+HOMRN2,44,"FAV Renting is unfavorable b/c high rents, shortage"
+HOMRN2,45,"FAV Owning is always a good idea, renting is a bad idea"
+HOMRN2,46,FAV Capital appreciation: buying is a good investment
+HOMRN2,47,FAV Other good reasons (misc.)
+HOMRN2,48,FAV Variable mortgage rate
+HOMRN2,49,"FAV Economic policy, references to gov't/president"
+HOMRN2,50,UNFAV Interest rates won't get any lower
+HOMRN2,51,"UNFAV Prices are too high, houses cost too much"
+HOMRN2,52,"UNFAV Seller's market, few sales or discounts"
+HOMRN2,53,"UNFAV Prices will fall later, will come down"
+HOMRN2,54,UNFAV Debt or credit bad (NA why)
+HOMRN2,55,UNFAV Higher/larger down payment required
+HOMRN2,56,"UNFAV Interest rate too high, will go up"
+HOMRN2,57,"UNFAV Credit hard to get, financing difficult"
+HOMRN2,58,UNFAV Interest rates will come down later
+HOMRN2,59,"UNFAV Tax increase, property taxes too high"
+HOMRN2,61,"UNFAV People can't afford to buy now, times are bad"
+HOMRN2,62,"UNFAV People should save money, uncertain of future"
+HOMRN2,63,UNFAV Buying contributes to inflation/makes bad times
+HOMRN2,65,"UNFAV Energy crisis, shortage of fuels"
+HOMRN2,71,"UNFAV Supply inadequate, few houses on market"
+HOMRN2,72,"UNFAV Quality is poor, quality may improve"
+HOMRN2,73,"UNFAV Poor designs, unattractive styling"
+HOMRN2,81,UNFAV R mentions only seasonal factors
+HOMRN2,82,UNFAV Difficult to get rid of present house
+HOMRN2,83,UNFAV Better return on alternative investments
+HOMRN2,84,UNFAV Renting favorable b/c of low rents
+HOMRN2,85,UNFAV Renting is always better than owning
+HOMRN2,86,"UNFAV Capital depreciation, buying is bad investment"
+HOMRN2,87,UNFAV Other reasons why now is a bad time to buy
+HOMRN2,88,UNFAV Variable mortgage rate
+HOMRN2,89,"UNFAV Economic policy, references to gov't/president"
+HOMRN2,90,Cost of (homeowners) insurance
+HOMRN2,98,DK
+HOMRN2,99,NA
+SHOM,1,GOOD
+SHOM,3,PRO-CON
+SHOM,5,BAD
+SHOM,8,DK
+SHOM,9,NA
+SHOMRN1,0,No second mention
+SHOMRN1,10,FAV Interest rate won't get any lower (not codeable elsewhere)
+SHOMRN1,11,FAV Prices are high/higher/won't get any lower
+SHOMRN1,12,FAV Seller's market (under-supply of houses)
+SHOMRN1,13,FAV Prices going down; sell before prices lower
+SHOMRN1,14,FAV Prices won't get any higher (not codeable 13)
+SHOMRN1,15,FAV Lower down payment
+SHOMRN1,16,FAV Interest rates are low (now)
+SHOMRN1,17,"FAV Credit easy to get; easy money, NA if 15, 16, 17, or 18"
+SHOMRN1,18,FAV Credit will be tighter later; interest rates will go up
+SHOMRN1,19,FAV Lower taxes; taxes will be higher later
+SHOMRN1,21,FAV People can afford to buy now
+SHOMRN1,23,FAV Buying makes for good times/prosperity/high employment
+SHOMRN1,31,"FAV Supply inadequate, shortages now; may be shortages later"
+SHOMRN1,33,"FAV Good time for existing homes, costs more to build new ones"
+SHOMRN1,41,FAV Seasonal references only
+SHOMRN1,42,FAV R only says: If need to sell/need money this is good time
+SHOMRN1,44,FAV Can use cash/capital for other investments
+SHOMRN1,45,"FAV Better to sell now, value of home may decline"
+SHOMRN1,46,FAV Capital appreciation: value of houses increased; good profits now
+SHOMRN1,47,FAV Other good reasons (miscellaneous)
+SHOMRN1,48,FAV Variable mortgage rate
+SHOMRN1,49,FAV Economic policy; references to gov't/new president
+SHOMRN1,50,UNFAV Interest rates won't get any lower (not codeable elsewhere)
+SHOMRN1,51,UNFAV Prices are low/lower
+SHOMRN1,52,UNFAV Buyer's market; difficult to find buyers;
+SHOMRN1,53,UNFAV Prices will rise later; future uncertainty about prices
+SHOMRN1,54,UNFAV Interest rates low/lower
+SHOMRN1,55,UNFAV Higher/Larger down payment required
+SHOMRN1,56,UNFAV Interest rate too high; will go up
+SHOMRN1,57,UNFAV Credit hard to get; financing difficult; pt system; tight money
+SHOMRN1,58,UNFAV Interest rates will come down later; credit easier later
+SHOMRN1,59,UNFAV Tax increase; (property) taxes too high; going higher
+SHOMRN1,61,UNFAV People can't afford to buy now; recession; inflation
+SHOMRN1,62,UNFAV People should save money; future uncertain; bad times ahead
+SHOMRN1,63,UNFAV Buying contributes to inflation/makes for bad times
+SHOMRN1,65,UNFAV Energy crisis; shortages of fuels; high price of utilities
+SHOMRN1,71,UNFAV Supply adequate; (no reference to influence on prices/deals)
+SHOMRN1,73,UNFAV Bad time for older homes; people want newer homes
+SHOMRN1,81,UNFAV R mentions only seasonal factors
+SHOMRN1,84,UNFAV Home is good\better investment
+SHOMRN1,85,UNFAV Rents are too high
+SHOMRN1,86,UNFAV Capital depreciation: would lose money if sold now
+SHOMRN1,87,UNFAV Other reasons why now is a bad time to sell
+SHOMRN1,88,UNFAV Variable mortgage rate
+SHOMRN1,89,UNFAV Economic policy; references to government/new president
+SHOMRN1,98,DK
+SHOMRN1,99,NA
+SHOMRN2,0,No second mention
+SHOMRN2,10,FAV Interest rate won't get any lower (not codeable elsewhere)
+SHOMRN2,11,FAV Prices are high/higher/won't get any lower
+SHOMRN2,12,FAV Seller's market (under-supply of houses)
+SHOMRN2,13,FAV Prices going down; sell before prices lower
+SHOMRN2,14,FAV Prices won't get any higher (not codeable 13)
+SHOMRN2,15,FAV Lower down payment
+SHOMRN2,16,FAV Interest rates are low (now)
+SHOMRN2,17,"FAV Credit easy to get; easy money, NA if 15, 16, 17, or 18"
+SHOMRN2,18,FAV Credit will be tighter later; interest rates will go up
+SHOMRN2,19,FAV Lower taxes; taxes will be higher later
+SHOMRN2,21,FAV People can afford to buy now
+SHOMRN2,23,FAV Buying makes for good times/prosperity/high employment
+SHOMRN2,31,"FAV Supply inadequate, shortages now; may be shortages later"
+SHOMRN2,33,"FAV Good time for existing homes, costs more to build new ones"
+SHOMRN2,41,FAV Seasonal references only
+SHOMRN2,42,FAV R only says: If need to sell/need money this is good time
+SHOMRN2,44,FAV Can use cash/capital for other investments
+SHOMRN2,45,"FAV Better to sell now, value of home may decline"
+SHOMRN2,46,FAV Capital appreciation: value of houses increased; good profits now
+SHOMRN2,47,FAV Other good reasons (miscellaneous)
+SHOMRN2,48,FAV Variable mortgage rate
+SHOMRN2,49,FAV Economic policy; references to gov't/new president
+SHOMRN2,50,UNFAV Interest rates won't get any lower (not codeable elsewhere)
+SHOMRN2,51,UNFAV Prices are low/lower
+SHOMRN2,52,UNFAV Buyer's market; difficult to find buyers;
+SHOMRN2,53,UNFAV Prices will rise later; future uncertainty about prices
+SHOMRN2,54,UNFAV Interest rates low/lower
+SHOMRN2,55,UNFAV Higher/Larger down payment required
+SHOMRN2,56,UNFAV Interest rate too high; will go up
+SHOMRN2,57,UNFAV Credit hard to get; financing difficult; pt system; tight money
+SHOMRN2,58,UNFAV Interest rates will come down later; credit easier later
+SHOMRN2,59,UNFAV Tax increase; (property) taxes too high; going higher
+SHOMRN2,61,UNFAV People can't afford to buy now; recession; inflation
+SHOMRN2,62,UNFAV People should save money; future uncertain; bad times ahead
+SHOMRN2,63,UNFAV Buying contributes to inflation/makes for bad times
+SHOMRN2,65,UNFAV Energy crisis; shortages of fuels; high price of utilities
+SHOMRN2,71,UNFAV Supply adequate; (no reference to influence on prices/deals)
+SHOMRN2,73,UNFAV Bad time for older homes; people want newer homes
+SHOMRN2,81,UNFAV R mentions only seasonal factors
+SHOMRN2,84,UNFAV Home is good\better investment
+SHOMRN2,85,UNFAV Rents are too high
+SHOMRN2,86,UNFAV Capital depreciation: would lose money if sold now
+SHOMRN2,87,UNFAV Other reasons why now is a bad time to sell
+SHOMRN2,88,UNFAV Variable mortgage rate
+SHOMRN2,89,UNFAV Economic policy; references to government/new president
+SHOMRN2,98,DK
+SHOMRN2,99,NA
+CAR,1,Good
+CAR,3,Pro-con
+CAR,5,Bad
+CAR,8,DK
+CAR,9,NA
+CARRN1,0,No second mention
+CARRN1,10,FAV Interest rates won't get any lower
+CARRN1,11,FAV Prices are low/lower/stable/not too high
+CARRN1,12,"FAV Good buys available; sales, discounts"
+CARRN1,13,"FAV Prices are going up, buy before prices higher"
+CARRN1,14,FAV Prices won't get any lower
+CARRN1,15,FAV Lower down payment
+CARRN1,16,FAV Interest rates low
+CARRN1,17,FAV Credit easy to get; easy money
+CARRN1,18,FAV Interest rates are going higher
+CARRN1,19,FAV Taxes low; will be higher
+CARRN1,20,FAV Rebate/Bonus program
+CARRN1,21,FAV People can afford to buy now; purchasing power up
+CARRN1,23,"FAV Buying makes for good times, prosperity"
+CARRN1,25,"FAV Energy crisis lessened, availability of gas"
+CARRN1,30,"FAV New cars get better mileage, due to gasahol"
+CARRN1,31,"FAV Supply adequate, no shortages now"
+CARRN1,32,FAV Quality is good/better/may get worse
+CARRN1,33,FAV New models have improvements; new features
+CARRN1,34,FAV Great variety of models and sizes to choose from
+CARRN1,35,FAV (New) Small (economy) cars
+CARRN1,36,FAV Safety; new models are safer
+CARRN1,37,FAV Safety devices will be on and that's bad
+CARRN1,38,"FAV Anti-pollution devices (will be on, good)"
+CARRN1,39,"FAV Anti-pollution devices (will be on, bad)"
+CARRN1,40,"FAV Strikes: labor problems, union demands"
+CARRN1,41,FAV Seasonal reference only
+CARRN1,42,"FAV R says: if you need it, good time as any"
+CARRN1,43,"FAV Low sales won't last, will pick up soon"
+CARRN1,44,"FAV NA whether 36 or 38, or both"
+CARRN1,45,"FAV NA whether 37 or 39, or both"
+CARRN1,46,FAV New models are little changed from old
+CARRN1,47,FAV Other good reasons (misc.)
+CARRN1,49,"FAV Economic policy, references to gov't/president"
+CARRN1,50,UNFAV Interest rates won't get any lower
+CARRN1,51,"UNFAV Prices are (too) high, prices are going up"
+CARRN1,52,UNFAV Seller's market; few sales or discounts
+CARRN1,53,"UNFAV Prices will fall later, are falling"
+CARRN1,54,UNFAV Debt or credit is bad (NA why)
+CARRN1,55,UNFAV Larger/higher down payment required
+CARRN1,56,"UNFAV Interest rates are high, will go up"
+CARRN1,57,"UNFAV Credit hard to get, tight money"
+CARRN1,58,UNFAV Interest rates will fall later
+CARRN1,59,"UNFAV Taxes high, going higher"
+CARRN1,60,UNFAV Because rebate/bonus program will be over
+CARRN1,61,"UNFAV People can't afford to buy now, times bad"
+CARRN1,62,"UNFAV People should save money, bad times ahead"
+CARRN1,63,"UNFAV Buying contributes to inflation, makes bad times"
+CARRN1,65,"UNFAV Energy crisis, gas shortage, price of gas"
+CARRN1,67,UNFAV Environmental/ecology reasons; pollution
+CARRN1,70,UNFAV Poor mileage (including due to gasahol)
+CARRN1,71,UNFAV Supply inadequate; few cars on market
+CARRN1,72,UNFAV Quality is poor; quality better later
+CARRN1,73,UNFAV Poor designs; unattractive styling
+CARRN1,74,UNFAV New types of cars will be intro soon
+CARRN1,75,UNFAV New smaller cars
+CARRN1,76,UNFAV Safety; later models will be safer
+CARRN1,77,"UNFAV Too many safe items (expensive, unneeded)"
+CARRN1,78,UNFAV Later models will pollute less
+CARRN1,79,"UNFAV Anti-pollution devices (will be on, bad)"
+CARRN1,80,UNFAV Strikes; labor problems
+CARRN1,81,UNFAV R mentions only seasonal factors
+CARRN1,82,UNFAV Imported car market; int'l references
+CARRN1,83,"UNFAV High sales can't last, change is due"
+CARRN1,84,"UNFAV NA whether 76, or 78, or both"
+CARRN1,85,"UNFAV NA whether 77, or 79, or both"
+CARRN1,86,"UNFAV Poor performance, not clear why"
+CARRN1,87,UNFAV Other reasons why now is a bad time to buy
+CARRN1,88,UNFAV Cost of insurance
+CARRN1,89,"UNFAV Economic policy, references to gov't/president"
+CARRN1,90,"UNFAV Good for imported cars, bad for domestic"
+CARRN1,91,"UNFAV Good time for new car, bad time for used"
+CARRN1,92,"UNFAV Good time for used cars, bad time for new"
+CARRN1,93,UNFAV Depends on whether new or used
+CARRN1,94,"UNFAV Good time for small cars, bad for big cars"
+CARRN1,95,"UNFAV Good time for big cars, bad for small cars"
+CARRN1,96,"UNFAV Good for domestic cars, bad for imported"
+CARRN1,98,DK
+CARRN1,99,NA
+CARRN2,0,No second mention
+CARRN2,10,FAV Interest rates won't get any lower
+CARRN2,11,FAV Prices are low/lower/stable/not too high
+CARRN2,12,"FAV Good buys available; sales, discounts"
+CARRN2,13,"FAV Prices are going up, buy before prices higher"
+CARRN2,14,FAV Prices won't get any lower
+CARRN2,15,FAV Lower down payment
+CARRN2,16,FAV Interest rates low
+CARRN2,17,FAV Credit easy to get; easy money
+CARRN2,18,FAV Interest rates are going higher
+CARRN2,19,FAV Taxes low; will be higher
+CARRN2,20,FAV Rebate/Bonus program
+CARRN2,21,FAV People can afford to buy now; purchasing power up
+CARRN2,23,"FAV Buying makes for good times, prosperity"
+CARRN2,25,"FAV Energy crisis lessened, availability of gas"
+CARRN2,30,"FAV New cars get better mileage, due to gasahol"
+CARRN2,31,"FAV Supply adequate, no shortages now"
+CARRN2,32,FAV Quality is good/better/may get worse
+CARRN2,33,FAV New models have improvements; new features
+CARRN2,34,FAV Great variety of models and sizes to choose from
+CARRN2,35,FAV (New) Small (economy) cars
+CARRN2,36,FAV Safety; new models are safer
+CARRN2,37,FAV Safety devices will be on and that's bad
+CARRN2,38,"FAV Anti-pollution devices (will be on, good)"
+CARRN2,39,"FAV Anti-pollution devices (will be on, bad)"
+CARRN2,40,"FAV Strikes: labor problems, union demands"
+CARRN2,41,FAV Seasonal reference only
+CARRN2,42,"FAV R says: if you need it, good time as any"
+CARRN2,43,"FAV Low sales won't last, will pick up soon"
+CARRN2,44,"FAV NA whether 36 or 38, or both"
+CARRN2,45,"FAV NA whether 37 or 39, or both"
+CARRN2,46,FAV New models are little changed from old
+CARRN2,47,FAV Other good reasons (misc.)
+CARRN2,49,"FAV Economic policy, references to gov't/president"
+CARRN2,50,UNFAV Interest rates won't get any lower
+CARRN2,51,"UNFAV Prices are (too) high, prices are going up"
+CARRN2,52,UNFAV Seller's market; few sales or discounts
+CARRN2,53,"UNFAV Prices will fall later, are falling"
+CARRN2,54,UNFAV Debt or credit is bad (NA why)
+CARRN2,55,UNFAV Larger/higher down payment required
+CARRN2,56,"UNFAV Interest rates are high, will go up"
+CARRN2,57,"UNFAV Credit hard to get, tight money"
+CARRN2,58,UNFAV Interest rates will fall later
+CARRN2,59,"UNFAV Taxes high, going higher"
+CARRN2,60,UNFAV Because rebate/bonus program will be over
+CARRN2,61,"UNFAV People can't afford to buy now, times bad"
+CARRN2,62,"UNFAV People should save money, bad times ahead"
+CARRN2,63,"UNFAV Buying contributes to inflation, makes bad times"
+CARRN2,65,"UNFAV Energy crisis, gas shortage, price of gas"
+CARRN2,67,UNFAV Environmental/ecology reasons; pollution
+CARRN2,70,UNFAV Poor mileage (including due to gasahol)
+CARRN2,71,UNFAV Supply inadequate; few cars on market
+CARRN2,72,UNFAV Quality is poor; quality better later
+CARRN2,73,UNFAV Poor designs; unattractive styling
+CARRN2,74,UNFAV New types of cars will be intro soon
+CARRN2,75,UNFAV New smaller cars
+CARRN2,76,UNFAV Safety; later models will be safer
+CARRN2,77,"UNFAV Too many safe items (expensive, unneeded)"
+CARRN2,78,UNFAV Later models will pollute less
+CARRN2,79,"UNFAV Anti-pollution devices (will be on, bad)"
+CARRN2,80,UNFAV Strikes; labor problems
+CARRN2,81,UNFAV R mentions only seasonal factors
+CARRN2,82,UNFAV Imported car market; int'l references
+CARRN2,83,"UNFAV High sales can't last, change is due"
+CARRN2,84,"UNFAV NA whether 76, or 78, or both"
+CARRN2,85,"UNFAV NA whether 77, or 79, or both"
+CARRN2,86,"UNFAV Poor performance, not clear why"
+CARRN2,87,UNFAV Other reasons why now is a bad time to buy
+CARRN2,88,UNFAV Cost of insurance
+CARRN2,89,"UNFAV Economic policy, references to gov't/president"
+CARRN2,90,"UNFAV Good for imported cars, bad for domestic"
+CARRN2,91,"UNFAV Good time for new car, bad time for used"
+CARRN2,92,"UNFAV Good time for used cars, bad time for new"
+CARRN2,93,UNFAV Depends on whether new or used
+CARRN2,94,"UNFAV Good time for small cars, bad for big cars"
+CARRN2,95,"UNFAV Good time for big cars, bad for small cars"
+CARRN2,96,"UNFAV Good for domestic cars, bad for imported"
+CARRN2,98,DK
+CARRN2,99,NA
+INCQFM,1,"Income in open format (before 1990)/ Asked open format, answered open format"
+INCQFM,2,"Asked open format, answered bracketed format: coded to midpoint"
+INCQFM,3,"Income in bracket format (before 1990)/ Asked bracketed, answered bracketed: coded to midpoint"
+YTL10,1,Bottom 10%
+YTL10,5,Top 90%
+YTL90,1,Top 10%
+YTL90,5,Bottom 90%
+YTL50,1,Bottom 50%
+YTL50,5,Top 50%
+YTL5,1,Bottom 20%
+YTL5,2,21-40%
+YTL5,3,41-60%
+YTL5,4,61-80%
+YTL5,5,Top 20%
+YTL4,1,Bottom 25%
+YTL4,2,26-50%
+YTL4,3,51-75%
+YTL4,4,Top 25%
+YTL3,1,Bottom 33%
+YTL3,2,Middle 33%
+YTL3,3,Top 33%
+HOMEOWN,1,Owns or is buying
+HOMEOWN,2,Rent
+HOMEOWN,99,NA
+HOMEQFM,1,"Asked open format, answered open format"
+HOMEQFM,2,"Asked open format, answered bracketed format: coded to midpoint"
+HOMEQFM,3,"Asked bracketed question, answered bracketed format: coded to midpoint"
+HTL10,1,Bottom 10%
+HTL10,5,Top 90%
+HTL90,1,Top 10%
+HTL90,5,Bottom 90%
+HTL50,1,Bottom 50%
+HTL50,5,Top 50%
+HTL5,1,Bottom 20%
+HTL5,2,21-40%
+HTL5,3,41-60%
+HTL5,4,61-80%
+HTL5,5,Top 20%
+HTL4,1,Bottom 25%
+HTL4,2,26-50%
+HTL4,3,51-75%
+HTL4,4,Top 25%
+HTL3,1,Bottom 33%
+HTL3,2,Middle 33%
+HTL3,3,Top 33%
+HOMEVAL,1,Increased in value
+HOMEVAL,3,Same
+HOMEVAL,5,Decreased in value
+HOMEVAL,8,DK
+HOMEVAL,9,NA
+HOMPX1Q1,1,Increase
+HOMPX1Q1,3,About the same
+HOMPX1Q1,5,Decrease
+HOMPX1Q1,8,DK
+HOMPX1Q1,9,NA
+HOMPX1Q2,998,DK
+HOMPX1Q2,999,NA
+HOMPX1,-997,DK how much down
+HOMPX1,996,DK how much up
+HOMPX1,998,DK whether up or down
+HOMPX1,999,NA
+HOMPX5Q1,1,Increase
+HOMPX5Q1,3,Remain about the same
+HOMPX5Q1,5,Decrease
+HOMPX5Q1,8,DK
+HOMPX5Q1,9,NA
+HOMPX5Q2,998,DK
+HOMPX5Q2,999,NA
+HOMPX5,-997,DK how much down
+HOMPX5,996,DK how much up
+HOMPX5,998,DK whether up or down
+HOMPX5,999,NA
+INVEST,1,Yes
+INVEST,5,"No (includes No, DK, NA, and *)"
+INVQFM,1,"Asked open format, answered open format"
+INVQFM,2,"Asked open format, answered bracketed format: coded to midpoint"
+INVQFM,3,"Asked bracketed format, answered bracketed format: coded to midpoint"
+STL10,1,Bottom 10%
+STL10,5,Top 90%
+STL90,1,Top 10%
+STL90,5,Top 90%
+STL50,1,Bottom 50%
+STL50,5,Top 50%
+STL5,1,Bottom 20%
+STL5,2,21-40%
+STL5,3,41-60%
+STL5,4,61-80%
+STL5,5,Top 20%
+STL4,1,Bottom 25%
+STL4,2,26-50%
+STL4,3,51-75%
+STL4,4,Top 25%
+STL3,1,Bottom 33%
+STL3,2,Middle 33%
+STL3,3,Top 33%
+AGE,97,97 or older
+BIRTHM,1,January
+BIRTHM,2,February
+BIRTHM,3,March
+BIRTHM,4,April
+BIRTHM,5,May
+BIRTHM,6,June
+BIRTHM,7,July
+BIRTHM,8,August
+BIRTHM,9,September
+BIRTHM,10,October
+BIRTHM,11,November
+BIRTHM,12,December
+REGION,1,West
+REGION,2,North Central
+REGION,3,Northeast
+REGION,4,South
+SEX,1,Male
+SEX,2,Female
+MARRY,1,Married/partner (includes spouse absent)
+MARRY,3,Divorced (includes separated)
+MARRY,4,Widowed
+MARRY,5,Never married
+NUMKID,0,None
+EDUC,1,Grade 0-8 no hs diploma
+EDUC,2,Grade 9-12 no hs diploma
+EDUC,3,Grade 0-12 w/ hs diploma
+EDUC,4,Grade 13-17 no col degree
+EDUC,5,Grade 13-16 w/ col degree
+EDUC,6,Grade 17 W/ col degree
+ECLGRD,1,Yes
+ECLGRD,5,No
+ECLGRD,8,DK
+ECLGRD,9,NA
+EHSGRD,1,Yes
+EHSGRD,5,No
+EHSGRD,8,DK
+EHSGRD,9,NA
+EGRADE,98,DK
+EGRADE,99,NA
+EDUCATION,1,"Grade 1 through 12, no diploma"
+EDUCATION,2,High school diploma or GED
+EDUCATION,3,"Some college, no degree"
+EDUCATION,4,"Associate's degree (ex. AA, AS) or Vocational certification"
+EDUCATION,5,"Bachelor's degree (ex. BA, BS)"
+EDUCATION,6,"Master's degree (ex. MA, MS, MEng, MEd, MSW, MBA)"
+EDUCATION,7,"Professional degree beyond a bachelor's degree (ex. MD, DDS, DVM, LLB, JD)"
+EDUCATION,8,"Doctorate degree (ex. PhD, EdD)"
+EDUCATION,99,NA
+POLAFF,1,Republican
+POLAFF,2,Democrat
+POLAFF,3,"Independent, No Preference"
+POLAFF,8,DK
+POLAFF,9,NA
+POLREP,1,Strong
+POLREP,5,Not So Strong
+POLREP,8,DK
+POLREP,9,NA
+POLDEM,1,Strong
+POLDEM,5,Not So Strong
+POLDEM,8,DK
+POLDEM,9,NA
+POLCRD,1,Closer to Republican
+POLCRD,5,Closer to Democratic
+POLCRD,6,Neither
+POLCRD,8,DK
+POLCRD,9,NA
+VEHOWN,1,Yes
+VEHOWN,5,No
+VEHOWN,8,DK
+VEHOWN,9,NA
+VEHNUM,98,DK
+VEHNUM,99,NA
+GASPX1,1,Go up
+GASPX1,3,Stay the same
+GASPX1,5,Go down
+GASPX1,8,DK
+GASPX1,9,NA
+GASPX2,995,995 cents or more
+GASPX2,998,DK
+GASPX2,999,NA
+GAS5,-997,DK how much down
+GAS5,-995,-995 cents or less
+GAS5,995,995 cents or more
+GAS5,996,DK how much up
+GAS5,998,DK whether up or down
+GAS5,999,NA
+GAS1PX1,1,Go up
+GAS1PX1,3,Stay the same
+GAS1PX1,5,Go down
+GAS1PX1,8,DK
+GAS1PX1,9,NA
+GAS1PX2,995,995 cents or more
+GAS1PX2,998,DK
+GAS1PX2,999,NA
+GAS1,-997,DK how much down
+GAS1,996,DK how much up
+GAS1,998,DK whether up or down
+GAS1,999,NA
+PINC,998,DK
+PINC,999,NA
+PINC2,996,Volunteered “No personal income” (Only for METHOD=1)
+PINC2,998,DK
+PINC2,999,NA
+PJOB,998,DK
+PJOB,999,NA
+PSSA,998,DK
+PSSA,999,NA
+PCRY,1,Gone up
+PCRY,3,Same
+PCRY,5,Gone down
+PCRY,8,DK
+PCRY,9,NA
+PSTK,998,DK
+PSTK,999,NA

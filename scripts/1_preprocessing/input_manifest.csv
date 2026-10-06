@@ -1,0 +1,108 @@
+source,path,source_version,acquisition_section,kind,role,sha256
+bea_sainc,data/raw/macro/bea_sainc/SAINC1__ALL_AREAS_1929_2025.csv,SAINC1; 1929-2025 local frozen snapshot,provided-inputs,supplied,raw macro series,a47d3f8894bfd578ca3f20753f40802b52ba1102d58516b6d60a5339ba5491a7
+bls_laus,data/raw/macro/bls_la/la.data.2.AllStatesU.txt,local frozen BLS LAUS snapshot,provided-inputs,supplied,raw macro series,b1894e1130e54c466454a32d5584db41b53991dfb87831e4a43bad429021f88b
+census,data/raw/micro/census/census.gz,IPUMS USA frozen 1990 and 2000 1% samples,census,download,survey microdata,
+census,data/raw/release_dates/release_census.csv,repository-maintained release assumptions,provided-inputs,supplied,release-date crosswalk,917992529cfeaa0f2d9900a7723ce84889bf0760dedff622436fb750990a0a78
+cex,data/raw/micro/cex/interview/intrvw00.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,be2f8b3e97e1443599b0f15a3c03e74719d4f729da2f18c907a7d8ee190ea8df
+cex,data/raw/micro/cex/interview/intrvw01.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,6e114a0bd7b765c91b0b914179a8386c9e44afb20a2bae05ac17121b584c23d1
+cex,data/raw/micro/cex/interview/intrvw02.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,f48798cdcef8d2773828a4b479ca128e718dbf9479ae07bb153a3d0c5321d087
+cex,data/raw/micro/cex/interview/intrvw03.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,ea3611266cb5f465639cfe71b9aa79258d81a43102b25c0aa5069a85ef818f76
+cex,data/raw/micro/cex/interview/intrvw04.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,2bd4fcef9e0b53283bd3095bda565d0b11b850a4e5d025b57a7071b5d9af1580
+cex,data/raw/micro/cex/interview/intrvw05.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,996006a693c8e37994941b8f1206747e0893fae606534f6969342a9d9d2486eb
+cex,data/raw/micro/cex/interview/intrvw06.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,9f7e182afbbd7f523e99f9d1cbcf468b3b36eb915229b4475be3f95ef1adb52e
+cex,data/raw/micro/cex/interview/intrvw07.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,2d748218add24ba3f9b9e799e13a0abfb96e960b83c1bb150b6adba01f729e55
+cex,data/raw/micro/cex/interview/intrvw08.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,02d699b4fd12973440ab0d30f68cc9a05ce81b61a0630319eef0ac4230f5a5cd
+cex,data/raw/micro/cex/interview/intrvw09.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,151c99e5f5625d6067024364edaf0f0d3b4d064281c39b40a2981a5a13e1b621
+cex,data/raw/micro/cex/interview/intrvw10.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,ef3c154b45c52819991abc0c731f0d382c85da531bbdd09a1c5ab5281f024d89
+cex,data/raw/micro/cex/interview/intrvw11.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,984af1ba09abea7b93355e7686ec560791ed0afc44c1f834b8067ddbeeb82c40
+cex,data/raw/micro/cex/interview/intrvw12.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,27bdfed6ac0c8b647fbd179c82f680502d35acf52bdb83fbc4e7596c8cced9f1
+cex,data/raw/micro/cex/interview/intrvw13.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,248c5e218e35792a78f618837397e41031306b1922aa8c3777a473bfe56fd05c
+cex,data/raw/micro/cex/interview/intrvw14.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,abdd3b83e5e0bf07a87312cdb8f6a466b426334d1d88658dc95b4712f02b3a4c
+cex,data/raw/micro/cex/interview/intrvw15.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,b9eca7df3c565be7ac82d405c1843ff4b7f370ddd10605a2d48aae72d149e2e8
+cex,data/raw/micro/cex/interview/intrvw16.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,1594b8295ba794e81d453e6db618cd6ac38aa256813c5b8629192dcb812c9e10
+cex,data/raw/micro/cex/interview/intrvw17.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,3cece91fde712f2e9d7e63c9a8f0f56d640973d6e255b6d4b794afbb9c2f1f89
+cex,data/raw/micro/cex/interview/intrvw18.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,938cbcc9d4ca9fb18866a269915e34111d8e492fcadad9f7998b80c3226af4e9
+cex,data/raw/micro/cex/interview/intrvw19.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,5732db89872b39eaeced60901e5b6788d5ee0c02e660c4fede48ea1efef6f910
+cex,data/raw/micro/cex/interview/intrvw20.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,69a6e473475ad32c7d7573ee9f271f39f8d599c9917fb19119eb393f2ecf42c6
+cex,data/raw/micro/cex/interview/intrvw21.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,46430a9968b32725f7ef4acdbbb5717aa88f4442b8ebaf7ec995c12584ad6c23
+cex,data/raw/micro/cex/interview/intrvw22.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,f74f7fcb537d7e24a45e0f7fb04294b20cc7f5b7b449cacb31394cc8b30ae054
+cex,data/raw/micro/cex/interview/intrvw23.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,5d637e2b1f51a42c0fd9c6c0cce8aace1b93a3ba78239e02081629f4d267b7f8
+cex,data/raw/micro/cex/interview/intrvw24.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,bcf52f5af0f0af7d4beba58c3600bc4c5c950e36e9553a648b9b6e85396afb5a
+cex,data/raw/micro/cex/interview/intrvw80.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,eaa7572a98b33ff678d33adfe2d31e3df14343ef2219939f1b84a60cdf54444f
+cex,data/raw/micro/cex/interview/intrvw81.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,dea5e21904000ae69371ecece7d5ff74c130b1fe3918aa0c712d51efb2fed4be
+cex,data/raw/micro/cex/interview/intrvw84.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,9ec3f31f98de661a5a2e58441cbf27a8e25799367ed0c45358b86dd670bf53b5
+cex,data/raw/micro/cex/interview/intrvw85.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,a213a94480cfbccf4d804f76c31067de0218720d2ddf376a004ac80e62fe19bf
+cex,data/raw/micro/cex/interview/intrvw86.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,c85e5a819c9c6f386544839a1e364b9d2dfa0607ba99eaf7160e6d08c826e347
+cex,data/raw/micro/cex/interview/intrvw87.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,2f9668351b5e09573375dcba845dcc091ff9a3fcf797150c16cda7e288d2d260
+cex,data/raw/micro/cex/interview/intrvw88.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,e462d425217b3ca1b5ac8944b9a274b04b11c104e97a1aaec503f1bb0638dab7
+cex,data/raw/micro/cex/interview/intrvw89.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,af7317f897f697586c748e263e2e2eb341e43c81655e2266f692a0b60110176d
+cex,data/raw/micro/cex/interview/intrvw90.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,ba2f1f47455ce949863a0ca99d342e6dd32067a1f80994970d27652a501d98d2
+cex,data/raw/micro/cex/interview/intrvw91.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,1fa39b47b0251297d5d28b0043fd6faa12eb3124b2c670b52b37fa304d4c3c7a
+cex,data/raw/micro/cex/interview/intrvw92.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,1126b3107d317107f4a2175af66d508aabc68610bd0e33939153e9eea39e3c66
+cex,data/raw/micro/cex/interview/intrvw93.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,5e690497ba71c37e6e3aa314ab5abd0f7ec5533b3c2f330e8f7108c2c1538065
+cex,data/raw/micro/cex/interview/intrvw94.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,988b1d33a2cad88a1bac75182b94287b4298cf9f2b60eaaf395709447eb78f2e
+cex,data/raw/micro/cex/interview/intrvw95.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,b1b70d4dadd618c4df53662e002ab0433277d510c80215b76f55ec615e9c3cf2
+cex,data/raw/micro/cex/interview/intrvw96.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,e41a5118bf65d63fbb8ae4653fb77680116bc9c2cfeaa7f7a74dac7ab36b989e
+cex,data/raw/micro/cex/interview/intrvw97.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,a0f3bae017b931ec27e459ee20acc07797050b562bc64c9138a8cd7b18538616
+cex,data/raw/micro/cex/interview/intrvw98.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,53a651dd827bf2e13d0df481d3cef6caa3c5deda6b5aed4015bb3844475b2e50
+cex,data/raw/micro/cex/interview/intrvw99.zip,"1980,1981,1984-2024 local frozen packages",provided-inputs,supplied,survey microdata,df92c8c4c6ceb0728c387fc7b556e2cac59a7b386094cbc4e1dbe21d1e1e93ba
+cex;cex_diary,data/raw/release_dates/release_cex.csv,repository-maintained release assumptions,provided-inputs,supplied,release-date crosswalk,df142fdb1c200f7357ddf0f2108aded1c1df36e43c8fe5194df9bf2d17736cda
+cex_diary,data/raw/micro/cex/diary/bls/diary00.zip,2000 canonical BLS,provided-inputs,supplied,survey microdata,f7b135e26d161c6ef1de8357d2f0bf83643531c5db4e943c84b4a5bf6f8b3376
+cex_diary,data/raw/micro/cex/diary/bls/diary01.zip,2001 canonical BLS,provided-inputs,supplied,survey microdata,3c25f743c7cd61d9af104105528bbe2bf75263a21d96cfbd009c5a53e276f08f
+cex_diary,data/raw/micro/cex/diary/bls/diary02.zip,2002 canonical BLS,provided-inputs,supplied,survey microdata,5e36ccfbed075de4db221c9df2d327b20bac44a7feb866cddcb90bc4f8d05fbc
+cex_diary,data/raw/micro/cex/diary/bls/diary03.zip,2003 canonical BLS,provided-inputs,supplied,survey microdata,6e3a9bf76377d82ce298b080455017960699974ddb5e0f65aa7a48a51539ce74
+cex_diary,data/raw/micro/cex/diary/bls/diary04.zip,2004 canonical BLS,provided-inputs,supplied,survey microdata,93988861d3e450b0b8e3585f614f0a2b245d1ace13d30a587955a770b614eb7a
+cex_diary,data/raw/micro/cex/diary/bls/diary05.zip,2005 canonical BLS,provided-inputs,supplied,survey microdata,add9d85c6425147fe826e671f242c428a2c8fbd442b2be6680bb38497cf082bf
+cex_diary,data/raw/micro/cex/diary/bls/diary06.zip,2006 canonical BLS,provided-inputs,supplied,survey microdata,5f2d5f5f021d164fe39de8b6af3964fe620890cb48d3ee2299a39e706256796c
+cex_diary,data/raw/micro/cex/diary/bls/diary07.zip,2007 canonical BLS,provided-inputs,supplied,survey microdata,38ca93e1c1738094b40275c212b448f1010543f5a30e3460ae48c02b141aecff
+cex_diary,data/raw/micro/cex/diary/bls/diary08.zip,2008 canonical BLS,provided-inputs,supplied,survey microdata,7cc22974840ededacd4d9888e004d8c4c9b981a879f62c2aa8ef581036bb8da5
+cex_diary,data/raw/micro/cex/diary/bls/diary09.zip,2009 canonical BLS,provided-inputs,supplied,survey microdata,3deb39040eb53cf689ac7d1661e07616be7571614d2b027096d337b6018d639d
+cex_diary,data/raw/micro/cex/diary/bls/diary10.zip,2010 canonical BLS,provided-inputs,supplied,survey microdata,17f6c3297dabaea8caedf0d833502ea03d58b279a26ba946dee169f30af80020
+cex_diary,data/raw/micro/cex/diary/bls/diary11.zip,2011 canonical BLS,provided-inputs,supplied,survey microdata,f6f134a54584688172cf63b69f2cf8c8857063aed9343d8d5d1d92901a8c674a
+cex_diary,data/raw/micro/cex/diary/bls/diary90.zip,1990 canonical BLS,provided-inputs,supplied,survey microdata,cd85b1317c781cca969e58297a35e088507420ff6579febbde3a4b3a7fad86ee
+cex_diary,data/raw/micro/cex/diary/bls/diary91.zip,1991 canonical BLS,provided-inputs,supplied,survey microdata,7a2dede89383deba476a0a6fdcd3cc0194422d4a25c084ba11ec716d65f73977
+cex_diary,data/raw/micro/cex/diary/bls/diary92.zip,1992 canonical BLS,provided-inputs,supplied,survey microdata,5233496aaeede5799213f5efaa8072c2bd3162623f0aa82e3e93f6a0ecb35ed2
+cex_diary,data/raw/micro/cex/diary/bls/diary93.zip,1993 canonical BLS,provided-inputs,supplied,survey microdata,b2deea07b14e798627d8beb02a908a939ae389b413e11426f6392766295eba45
+cex_diary,data/raw/micro/cex/diary/bls/diary94.zip,1994 canonical BLS,provided-inputs,supplied,survey microdata,6327697e8ec034773b1b1324bd846dc6699889829e9d8e407955492311f5e429
+cex_diary,data/raw/micro/cex/diary/bls/diary95.zip,1995 canonical BLS,provided-inputs,supplied,survey microdata,1d40e77a207ecd624930c226e0ac57243486894aa61644f47e600637509dd537
+cex_diary,data/raw/micro/cex/diary/bls/diary96.zip,1996 canonical BLS,provided-inputs,supplied,survey microdata,8f054ebf8490cad0ce15809b687640b3abefd429eeb3aeb784a7f4705d0f724f
+cex_diary,data/raw/micro/cex/diary/bls/diary97.zip,1997 canonical BLS,provided-inputs,supplied,survey microdata,07673586b0099ee08415edb197aafaafb59974960fa546e5e721b3597f9a2eda
+cex_diary,data/raw/micro/cex/diary/bls/diary98.zip,1998 canonical BLS,provided-inputs,supplied,survey microdata,a26a5dff3d04110bdcc87bb61ce9d7f170406c1230736324b8bb57773594e161
+cex_diary,data/raw/micro/cex/diary/bls/diary99.zip,1999 canonical BLS,provided-inputs,supplied,survey microdata,57fb86416a46a38d4f0da3e8bb89dc2320d764fa23105856efbca87ba677b3f7
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_08599-V1.zip,1982 canonical ICPSR,cex-diary,download,survey microdata,
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_08628-V1.zip,1984 canonical ICPSR,cex-diary,download,survey microdata,
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_08905-V1.zip,1985 canonical ICPSR,cex-diary,download,survey microdata,
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_09114-V1.zip,1986 canonical ICPSR,cex-diary,download,survey microdata,
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_09333-V1.zip,1987 canonical ICPSR,cex-diary,download,survey microdata,
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_09570-V1.zip,1988 canonical ICPSR,cex-diary,download,survey microdata,
+cex_diary,data/raw/micro/cex/diary/icpsr/ICPSR_09714-V1.zip,1989 canonical ICPSR,cex-diary,download,survey microdata,
+cpi,data/raw/macro/cpi/cu.data.1.AllItems.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,9baac9eb2fd78f4510a7edeb2c2d23abfbe0c4d4482febe54f415852e19dddf7
+cpi,data/raw/macro/cpi/cu.data.11.USFoodBeverage.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,2af8ff9e661c9c5ee20b51c24047f1905864c4e103cdd62ed9883381c78810ec
+cpi,data/raw/macro/cpi/cu.data.12.USHousing.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,505e5507630ef0c0384195dc3a1bfac878086696a0255321a10f19e762116cfb
+cpi,data/raw/macro/cpi/cu.data.13.USApparel.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,6f5fa5502a9f496e7c207d6ad4c0c625d02566727b7e7a7de8aba461c68c2f86
+cpi,data/raw/macro/cpi/cu.data.14.USTransportation.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,e81c0f7ea3e57f0a6b5855eddb5ffb04ab99147087d3c1cfab6b8233f1e853e7
+cpi,data/raw/macro/cpi/cu.data.15.USMedical.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,15d481821a32affaa073c55ccb48b7a4ed2e1b3fada40ecf91097c004fb375b3
+cpi,data/raw/macro/cpi/cu.data.16.USRecreation.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,869ae306ec6b2b9b67cdd836986d671d7b369b5fca669ad7788c44bfbfb6da3b
+cpi,data/raw/macro/cpi/cu.data.17.USEducationAndCommunication.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,025e0513111e283e846a4c008127f7aef4e965f23632712dc69b86c4ce5c4f24
+cpi,data/raw/macro/cpi/cu.data.18.USOtherGoodsAndServices.txt,local frozen BLS snapshot,provided-inputs,supplied,raw macro series,d5cdb13ab52737d18d44fc6586b803e4b7ba45eca84b0eb35845465277f74267
+cps,data/raw/micro/cps/cps_basic.csv.gz,IPUMS CPS 13.0; 20260814 Basic refresh; 1976-01 to 2026-06,cps-basic-and-dws,download,survey microdata,
+cps,data/raw/release_dates/release_cps.csv,repository-maintained release assumptions,provided-inputs,supplied,release-date crosswalk,64f3a351032b50b48a8797bdbbcaefa4af6ed4fd8d1929fc2bf4b809c744fa60
+cps_ui_policy,data/raw/micro/cps/ui_duration_farber_2015/P2015_1088_data/eui_state_08-14.dta,Farber-Rothstein-Valletta 2015 replication,provided-inputs,supplied,survey microdata,2e34fa8548c41c43a14cb7b6fffd386df46fca38035f12ac5fc5284b27d81d88
+fhfa_hpi,data/raw/macro/fhfa_hpi/hpi_master.csv,local frozen FHFA master snapshot,provided-inputs,supplied,raw macro series,8ab042e042ff476918eff1a6aee71653e19ae5e7a2fa95d1a89ec6da2002a907
+macro_context,data/raw/macro/fred-qd/2026-07-QD.csv,2026-07,fred-qd,download,raw macro series,ebe32d30809b528b52213e9f7f928806eeaa9c460ec76e72c0fab81f42e01d78
+mich,data/raw/micro/mich/mich.csv,Cross-Section Archive; local frozen snapshot through 2026-02,michigan,download,survey microdata,5e0a7e1cd2a04e8378e43bc1b4316b4bb5387241bb40744f0c50c6f7cd49ca22
+mich,data/raw/release_dates/release_mich.csv,repository-maintained release assumptions,provided-inputs,supplied,release-date crosswalk,5811dd1ff26e29ba6c6e4933fa37f5b58c26ce9fa94677b3ffddbb6ccff2da49
+psid,data/raw/micro/psid-shelf/Construction_Files/Data/PSID_COMPLETE_MAIN_STUDY_1968_2021_FULL_10.8_GB.zip,openICPSR 194322 V2; 2025-02-24,psid-shelf,download,survey microdata,1899f878d44ac766d57430edcbc4e053bb54c9056ff75df7d6f87f5f5793548b
+psid,data/raw/micro/psid-shelf/PSIDSHELF_1968_2021_LONG_7.9_GB.zip,openICPSR 194322 V2; 2025-02-24,psid-shelf,download,survey microdata,7652ba12900813dd094e9b7b2901f7f62ee31753810c48f8252ac5137b590b00
+psid,data/raw/release_dates/release_psid.csv,repository-maintained release assumptions,provided-inputs,supplied,release-date crosswalk,f085ed64f8218d937b851e30f68eb883682f7b887fb0d48a2bbdf93b40f6ee3b
+sce,data/raw/micro/sce/core/FRBNY-SCE-Public-Microdata-Complete-13-16.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,4107965060e133a9e2d8c672a97eec2e11e3c2768c649a68a71ee6db966ea05a
+sce,data/raw/micro/sce/core/FRBNY-SCE-Public-Microdata-Complete-17-19.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,a88e5a225c9a566dd8cdfdd77abef9ac456eb52d1a120c5ec208184a88c745c9
+sce,data/raw/micro/sce/core/frbny-sce-public-microdata-20-24.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,1b57ffb75c2170d767f46a001002db8c40c228fe5691f6dd19e39777ffe469c6
+sce,data/raw/micro/sce/core/frbny-sce-public-microdata-latest.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,7da4bbcd3f23a4434ab5a94c4c93a255c46df7a57c38eef807b39466bf158f48
+sce,data/raw/micro/sce/household_spending/sce-household-spending-microdata.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,4a85eef5a87f217829c719d99744a9eacba532a80615849996a0d24d308ecd03
+sce,data/raw/micro/sce/housing/FRBNY-SCE-Housing-Survey-Public-Microdata-Complete.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,080b164cb44004d1f2aad946a617711e73c94bc5ac4939681915d914b0ac91b1
+sce,data/raw/micro/sce/job_search/SCE-Public-LM-Quarterly-Microdata.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,4bdbe0a1fd43bfb04af6d823a0791d7da116f0d7dbc05f725f5a28dadefa07f8
+sce,data/raw/micro/sce/labor_market/sce-labor-microdata-public.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,3699479626241b24a7e9ac40514915ef3d3387b0525c2be808663010f92175a7
+sce,data/raw/micro/sce/public_policy/sce-policy-public-microdata.xlsx,local frozen workbook snapshot,provided-inputs,supplied,survey microdata,ef75e0e68d985b3ad97a168e854303cd36024d4dc65a557da2a7a587d675224e
+sce,data/raw/release_dates/release_sce.csv,repository-maintained release assumptions,provided-inputs,supplied,release-date crosswalk,ec938ef34e27d30bf7fbd0f3e9dfe58987d71b069a988fb9c3d7c94f98c5b006
+sce_financing,data/raw/micro/sce/financing_fuster_zafar_2021/ReplicationMaterial/data/raw/FZdata_raw.dta,Fuster-Zafar replication released 2022,provided-inputs,supplied,survey microdata,ee3c25313186ad6d1a6396020b6af2550133604e254a2bd89cc4f0ca5ad111c9

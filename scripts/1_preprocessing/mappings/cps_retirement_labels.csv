@@ -1,0 +1,793 @@
+variable,code,label
+DIFFANY,0,NIU
+DIFFANY,1,No difficulty
+DIFFANY,2,Has difficulty
+FAMINC,100,"Under $5,000"
+FAMINC,110,"Under $1,000"
+FAMINC,111,Under $500
+FAMINC,112,$500 - 999
+FAMINC,120,"$1,000 - 1,999"
+FAMINC,121,"$1,000 - 1,499"
+FAMINC,122,"$1,500-1,999"
+FAMINC,130,"$2,000 - 2,999"
+FAMINC,131,"$2,000 - 2,499"
+FAMINC,132,"$2,500 - 2,999"
+FAMINC,140,"$3,000 - 3,999"
+FAMINC,141,"$3,000 - 3,499"
+FAMINC,142,"$3,500 - 3,999"
+FAMINC,150,"$4,000 - 4,999"
+FAMINC,200,"$5,000 - 7,999"
+FAMINC,210,"$5,000 - 7,499"
+FAMINC,220,"$5,000 - 5,999"
+FAMINC,230,"$6,000 - 7,999"
+FAMINC,231,"$6,000 - 7,499"
+FAMINC,232,"$6,000 - 6,999"
+FAMINC,233,"$7,000 - 7,499"
+FAMINC,234,"$7,000 - 7,999"
+FAMINC,300,"$7,500 - 9,999"
+FAMINC,310,"$7,500 - 7,999"
+FAMINC,320,"$8,000 - 8,499"
+FAMINC,330,"$8,500 - 8,999"
+FAMINC,340,"$8,000 - 8,999"
+FAMINC,350,"$9,000 - 9,999"
+FAMINC,400,"$10,000 - 14,999"
+FAMINC,410,"$10,000 - 10,999"
+FAMINC,420,"$11,000 - 11,999"
+FAMINC,430,"$10,000 - 12,499"
+FAMINC,440,"$10,000 - 11,999"
+FAMINC,450,"$12,000 - 12,999"
+FAMINC,460,"$12,000 - 14,999"
+FAMINC,470,"$12,500 - 14,999"
+FAMINC,480,"$13,000 - 13,999"
+FAMINC,490,"$14,000 - 14,999"
+FAMINC,500,"$15,000 - 19,999"
+FAMINC,510,"$15,000 - 15,999"
+FAMINC,520,"$16,000 - 16,999"
+FAMINC,530,"$17,000 - 17,999"
+FAMINC,540,"$15,000 - 17,499"
+FAMINC,550,"$17,500 - 19,999"
+FAMINC,560,"$18,000 - 19,999"
+FAMINC,600,"$20,000 - 24,999"
+FAMINC,700,"$25,000 - 49,999"
+FAMINC,710,"$25,000 - 29,999"
+FAMINC,720,"$30,000 - 34,999"
+FAMINC,730,"$35,000 - 39,999"
+FAMINC,740,"$40,000 - 49,999"
+FAMINC,800,"$50,000 and over"
+FAMINC,810,"$50,000 - 74,999"
+FAMINC,820,"$50,000 - 59,999"
+FAMINC,830,"$60,000 - 74,999"
+FAMINC,840,"$75,000 and over"
+FAMINC,841,"$75,000 - 99,999"
+FAMINC,842,"$100,000 - 149,999"
+FAMINC,843,"$150,000 and over"
+FAMINC,995,Missing
+FAMINC,996,Refused
+FAMINC,997,Don't know
+FAMINC,999,Blank
+IND1990,0,NIU
+IND1990,10,"Agricultural production, crops"
+IND1990,11,"Agricultural production, livestock"
+IND1990,12,Veterinary services
+IND1990,20,Landscape and horticultural services
+IND1990,30,"Agricultural services, n.e.c."
+IND1990,31,Forestry
+IND1990,32,"Fishing, hunting, and trapping"
+IND1990,40,Metal mining
+IND1990,41,Coal mining
+IND1990,42,Oil and gas extraction
+IND1990,50,"Nonmetallic mining and quarrying, except fuels"
+IND1990,60,All construction
+IND1990,100,Meat products
+IND1990,101,Dairy products
+IND1990,102,"Canned, frozen, and preserved fruits and vegetables"
+IND1990,110,Grain mill products
+IND1990,111,Bakery products
+IND1990,112,Sugar and confectionery products
+IND1990,120,Beverage industries
+IND1990,121,Misc. food preparations and kindred products
+IND1990,122,"Food industries, n.s."
+IND1990,130,Tobacco manufactures
+IND1990,132,Knitting mills
+IND1990,140,"Dyeing and finishing textiles, except wool and knit goods"
+IND1990,141,Carpets and rugs
+IND1990,142,"Yarn, thread, and fabric mills"
+IND1990,150,Miscellaneous textile mill products
+IND1990,151,"Apparel and accessories, except knit"
+IND1990,152,Miscellaneous fabricated textile products
+IND1990,160,"Pulp, paper, and paperboard mills"
+IND1990,161,Miscellaneous paper and pulp products
+IND1990,162,Paperboard containers and boxes
+IND1990,171,Newspaper publishing and printing
+IND1990,172,"Printing, publishing, and allied industries, except newspapers"
+IND1990,180,"Plastics, synthetics, and resins"
+IND1990,181,Drugs
+IND1990,182,Soaps and cosmetics
+IND1990,190,"Paints, varnishes, and related products"
+IND1990,191,Agricultural chemicals
+IND1990,192,Industrial and miscellaneous chemicals
+IND1990,200,Petroleum refining
+IND1990,201,Miscellaneous petroleum and coal products
+IND1990,210,Tires and inner tubes
+IND1990,211,"Other rubber products, and plastics footwear and belting"
+IND1990,212,Miscellaneous plastics products
+IND1990,220,Leather tanning and finishing
+IND1990,221,"Footwear, except rubber and plastic"
+IND1990,222,"Leather products, except footwear"
+IND1990,229,"Manufacturing, non-durable - allocated"
+IND1990,230,Logging
+IND1990,231,"Sawmills, planing mills, and millwork"
+IND1990,232,Wood buildings and mobile homes
+IND1990,241,Miscellaneous wood products
+IND1990,242,Furniture and fixtures
+IND1990,250,Glass and glass products
+IND1990,251,"Cement, concrete, gypsum, and plaster products"
+IND1990,252,Structural clay products
+IND1990,261,Pottery and related products
+IND1990,262,Misc. nonmetallic mineral and stone products
+IND1990,270,"Blast furnaces, steelworks, rolling and finishing mills"
+IND1990,271,Iron and steel foundries
+IND1990,272,Primary aluminum industries
+IND1990,280,Other primary metal industries
+IND1990,281,"Cutlery, handtools, and general hardware"
+IND1990,282,Fabricated structural metal products
+IND1990,290,Screw machine products
+IND1990,291,Metal forgings and stampings
+IND1990,292,Ordnance
+IND1990,300,Miscellaneous fabricated metal products
+IND1990,301,"Metal industries, n.s."
+IND1990,310,Engines and turbines
+IND1990,311,Farm machinery and equipment
+IND1990,312,Construction and material handling machines
+IND1990,320,Metalworking machinery
+IND1990,321,Office and accounting machines
+IND1990,322,Computers and related equipment
+IND1990,331,"Machinery, except electrical, n.e.c."
+IND1990,332,"Machinery, n.s."
+IND1990,340,Household appliances
+IND1990,341,"Radio, TV, and communication equipment"
+IND1990,342,"Electrical machinery, equipment, and supplies, n.e.c."
+IND1990,350,"Electrical machinery, equipment, and supplies, n.s."
+IND1990,351,Motor vehicles and motor vehicle equipment
+IND1990,352,Aircraft and parts
+IND1990,360,Ship and boat building and repairing
+IND1990,361,Railroad locomotives and equipment
+IND1990,362,"Guided missiles, space vehicles, and parts"
+IND1990,370,Cycles and miscellaneous transportation equipment
+IND1990,371,Scientific and controlling instruments
+IND1990,372,"Medical, dental, and optical instruments and supplies"
+IND1990,380,Photographic equipment and supplies
+IND1990,381,"Watches, clocks, and clockwork operated devices"
+IND1990,390,"Toys, amusement, and sporting goods"
+IND1990,391,Miscellaneous manufacturing industries
+IND1990,392,"Manufacturing industries, n.s."
+IND1990,400,Railroads
+IND1990,401,Bus service and urban transit
+IND1990,402,Taxicab service
+IND1990,410,Trucking service
+IND1990,411,Warehousing and storage
+IND1990,412,U.S. Postal Service
+IND1990,420,Water transportation
+IND1990,421,Air transportation
+IND1990,422,"Pipe lines, except natural gas"
+IND1990,432,Services incidental to transportation
+IND1990,440,Radio and television broadcasting and cable
+IND1990,441,Wired communications
+IND1990,442,Telegraph and miscellaneous communications services
+IND1990,450,Electric light and power
+IND1990,451,Gas and steam supply systems
+IND1990,452,"Electric and gas, and other combinations"
+IND1990,470,Water supply and irrigation
+IND1990,471,Sanitary services
+IND1990,472,"Utilities, n.s."
+IND1990,500,Motor vehicles and equipment
+IND1990,501,Furniture and home furnishings
+IND1990,502,Lumber and construction materials
+IND1990,510,Professional and commercial equipment and supplies
+IND1990,511,"Metals and minerals, except petroleum"
+IND1990,512,Electrical goods
+IND1990,521,"Hardware, plumbing and heating supplies"
+IND1990,530,"Machinery, equipment, and supplies"
+IND1990,531,Scrap and waste materials
+IND1990,532,"Miscellaneous wholesale, durable goods"
+IND1990,540,Paper and paper products
+IND1990,541,"Drugs, chemicals, and allied products"
+IND1990,542,"Apparel, fabrics, and notions"
+IND1990,550,Groceries and related products
+IND1990,551,Farm-product raw materials
+IND1990,552,Petroleum products
+IND1990,560,Alcoholic beverages
+IND1990,561,Farm supplies
+IND1990,562,"Miscellaneous wholesale, nondurable goods"
+IND1990,571,"Wholesale trade, n.s."
+IND1990,580,Lumber and building material retailing
+IND1990,581,Hardware stores
+IND1990,582,Retail nurseries and garden stores
+IND1990,590,Mobile home dealers
+IND1990,591,Department stores
+IND1990,592,Variety stores
+IND1990,600,Miscellaneous general merchandise stores
+IND1990,601,Grocery stores
+IND1990,602,Dairy products stores
+IND1990,610,Retail bakeries
+IND1990,611,"Food stores, n.e.c."
+IND1990,612,Motor vehicle dealers
+IND1990,620,Auto and home supply stores
+IND1990,621,Gasoline service stations
+IND1990,622,Miscellaneous vehicle dealers
+IND1990,623,"Apparel and accessory stores, except shoe"
+IND1990,630,Shoe stores
+IND1990,631,Furniture and home furnishings stores
+IND1990,632,Household appliance stores
+IND1990,633,"Radio, TV, and computer stores"
+IND1990,640,Music stores
+IND1990,641,Eating and drinking places
+IND1990,642,Drug stores
+IND1990,650,Liquor stores
+IND1990,651,"Sporting goods, bicycles, and hobby stores"
+IND1990,652,Book and stationery stores
+IND1990,660,Jewelry stores
+IND1990,661,"Gift, novelty, and souvenir shops"
+IND1990,662,"Sewing, needlework, and piece goods stores"
+IND1990,663,Catalog and mail order houses
+IND1990,670,Vending machine operators
+IND1990,671,Direct selling establishments
+IND1990,672,Fuel dealers
+IND1990,681,Retail florists
+IND1990,682,Miscellaneous retail stores
+IND1990,691,"Retail trade, n.s."
+IND1990,700,Banking
+IND1990,701,"Savings institutions, including credit unions"
+IND1990,702,"Credit agencies, n.e.c."
+IND1990,710,"Security, commodity brokerage, and investment companies"
+IND1990,711,Insurance
+IND1990,712,"Real estate, including real estate-insurance offices"
+IND1990,721,Advertising
+IND1990,722,Services to dwellings and other buildings
+IND1990,731,Personnel supply services
+IND1990,732,Computer and data processing services
+IND1990,740,Detective and protective services
+IND1990,741,"Business services, n.e.c."
+IND1990,742,"Automotive rental and leasing, without drivers"
+IND1990,750,Automobile parking and carwashes
+IND1990,751,Automotive repair and related services
+IND1990,752,Electrical repair shops
+IND1990,760,Miscellaneous repair services
+IND1990,761,Private households
+IND1990,762,Hotels and motels
+IND1990,770,"Lodging places, except hotels and motels"
+IND1990,771,"Laundry, cleaning, and garment services"
+IND1990,772,Beauty shops
+IND1990,780,Barber shops
+IND1990,781,Funeral service and crematories
+IND1990,782,Shoe repair shops
+IND1990,790,Dressmaking shops
+IND1990,791,Miscellaneous personal services
+IND1990,800,Theaters and motion pictures
+IND1990,801,Video tape rental
+IND1990,802,Bowling centers
+IND1990,810,Miscellaneous entertainment and recreation services
+IND1990,812,Offices and clinics of physicians
+IND1990,820,Offices and clinics of dentists
+IND1990,821,Offices and clinics of chiropractors
+IND1990,822,Offices and clinics of optometrists
+IND1990,830,"Offices and clinics of health practitioners, n.e.c."
+IND1990,831,Hospitals
+IND1990,832,Nursing and personal care facilities
+IND1990,840,"Health services, n.e.c."
+IND1990,841,Legal services
+IND1990,842,Elementary and secondary schools
+IND1990,850,Colleges and universities
+IND1990,851,Vocational schools
+IND1990,852,Libraries
+IND1990,860,"Educational services, n.e.c."
+IND1990,861,Job training and vocational rehabilitation services
+IND1990,862,Child day care services
+IND1990,863,Family child care homes
+IND1990,870,"Residential care facilities, without nursing"
+IND1990,871,"Social services, n.e.c."
+IND1990,872,"Museums, art galleries, and zoos"
+IND1990,873,Labor unions
+IND1990,880,Religious organizations
+IND1990,881,"Membership organizations, n.e.c."
+IND1990,882,"Engineering, architectural, and surveying services"
+IND1990,890,"Accounting, auditing, and bookkeeping services"
+IND1990,891,"Research, development, and testing services"
+IND1990,892,Management and public relations services
+IND1990,893,Miscellaneous professional and related services
+IND1990,900,Executive and legislative offices
+IND1990,901,"General government, n.e.c."
+IND1990,910,"Justice, public order, and safety"
+IND1990,921,"Public finance, taxation, and monetary policy"
+IND1990,922,Administration of human resources programs
+IND1990,930,Administration of environmental quality and housing programs
+IND1990,931,Administration of economic programs
+IND1990,932,National security and international affairs
+IND1990,940,Army
+IND1990,941,Air Force
+IND1990,942,Navy
+IND1990,950,Marines
+IND1990,951,Coast Guard
+IND1990,952,"Armed Forces, branch not specified"
+IND1990,960,Military Reserves or National Guard
+IND1990,998,Unknown
+OCC2010,10,"Management, Business, Science, and Arts"
+OCC2010,20,"Management, Business, Science, and Arts"
+OCC2010,40,"Management, Business, Science, and Arts"
+OCC2010,50,"Management, Business, Science, and Arts"
+OCC2010,60,"Management, Business, Science, and Arts"
+OCC2010,100,"Management, Business, Science, and Arts"
+OCC2010,110,"Management, Business, Science, and Arts"
+OCC2010,120,"Management, Business, Science, and Arts"
+OCC2010,135,"Management, Business, Science, and Arts"
+OCC2010,136,"Management, Business, Science, and Arts"
+OCC2010,137,"Management, Business, Science, and Arts"
+OCC2010,140,"Management, Business, Science, and Arts"
+OCC2010,150,"Management, Business, Science, and Arts"
+OCC2010,160,"Management, Business, Science, and Arts"
+OCC2010,205,"Management, Business, Science, and Arts"
+OCC2010,220,"Management, Business, Science, and Arts"
+OCC2010,230,"Management, Business, Science, and Arts"
+OCC2010,300,"Management, Business, Science, and Arts"
+OCC2010,310,"Management, Business, Science, and Arts"
+OCC2010,330,"Management, Business, Science, and Arts"
+OCC2010,340,"Management, Business, Science, and Arts"
+OCC2010,350,"Management, Business, Science, and Arts"
+OCC2010,360,"Management, Business, Science, and Arts"
+OCC2010,410,"Management, Business, Science, and Arts"
+OCC2010,420,"Management, Business, Science, and Arts"
+OCC2010,425,"Management, Business, Science, and Arts"
+OCC2010,430,"Management, Business, Science, and Arts"
+OCC2010,500,Business Operations Specialists
+OCC2010,510,Business Operations Specialists
+OCC2010,520,Business Operations Specialists
+OCC2010,530,Business Operations Specialists
+OCC2010,540,Business Operations Specialists
+OCC2010,565,Business Operations Specialists
+OCC2010,600,Business Operations Specialists
+OCC2010,630,Business Operations Specialists
+OCC2010,640,Business Operations Specialists
+OCC2010,650,Business Operations Specialists
+OCC2010,700,Business Operations Specialists
+OCC2010,710,Business Operations Specialists
+OCC2010,725,Business Operations Specialists
+OCC2010,726,Business Operations Specialists
+OCC2010,735,Business Operations Specialists
+OCC2010,740,Business Operations Specialists
+OCC2010,800,Financial Specialists
+OCC2010,810,Financial Specialists
+OCC2010,820,Financial Specialists
+OCC2010,830,Financial Specialists
+OCC2010,840,Financial Specialists
+OCC2010,850,Financial Specialists
+OCC2010,860,Financial Specialists
+OCC2010,900,Financial Specialists
+OCC2010,910,Financial Specialists
+OCC2010,930,Financial Specialists
+OCC2010,940,Financial Specialists
+OCC2010,950,Financial Specialists
+OCC2010,1005,Computer and Mathematical
+OCC2010,1006,Computer and Mathematical
+OCC2010,1007,Computer and Mathematical
+OCC2010,1010,Computer and Mathematical
+OCC2010,1020,Computer and Mathematical
+OCC2010,1030,Computer and Mathematical
+OCC2010,1050,Computer and Mathematical
+OCC2010,1060,Computer and Mathematical
+OCC2010,1105,Computer and Mathematical
+OCC2010,1106,Computer and Mathematical
+OCC2010,1107,Computer and Mathematical
+OCC2010,1200,Computer and Mathematical
+OCC2010,1220,Computer and Mathematical
+OCC2010,1240,Computer and Mathematical
+OCC2010,1300,Architecture and Engineering
+OCC2010,1310,Architecture and Engineering
+OCC2010,1320,Architecture and Engineering
+OCC2010,1340,Architecture and Engineering
+OCC2010,1350,Architecture and Engineering
+OCC2010,1360,Architecture and Engineering
+OCC2010,1400,Architecture and Engineering
+OCC2010,1410,Architecture and Engineering
+OCC2010,1420,Architecture and Engineering
+OCC2010,1430,Architecture and Engineering
+OCC2010,1440,Architecture and Engineering
+OCC2010,1450,Architecture and Engineering
+OCC2010,1460,Architecture and Engineering
+OCC2010,1520,Architecture and Engineering
+OCC2010,1530,Architecture and Engineering
+OCC2010,1540,Architecture and Engineering
+OCC2010,1550,Technicians
+OCC2010,1560,Technicians
+OCC2010,1600,"Life, Physical, and Social Science"
+OCC2010,1610,"Life, Physical, and Social Science"
+OCC2010,1640,"Life, Physical, and Social Science"
+OCC2010,1650,"Life, Physical, and Social Science"
+OCC2010,1700,"Life, Physical, and Social Science"
+OCC2010,1710,"Life, Physical, and Social Science"
+OCC2010,1720,"Life, Physical, and Social Science"
+OCC2010,1740,"Life, Physical, and Social Science"
+OCC2010,1760,"Life, Physical, and Social Science"
+OCC2010,1800,"Life, Physical, and Social Science"
+OCC2010,1820,"Life, Physical, and Social Science"
+OCC2010,1840,"Life, Physical, and Social Science"
+OCC2010,1860,"Life, Physical, and Social Science"
+OCC2010,1900,"Life, Physical, and Social Science"
+OCC2010,1910,"Life, Physical, and Social Science"
+OCC2010,1920,"Life, Physical, and Social Science"
+OCC2010,1930,"Life, Physical, and Social Science"
+OCC2010,1965,"Life, Physical, and Social Science"
+OCC2010,2000,Community and Social Services
+OCC2010,2010,Community and Social Services
+OCC2010,2015,Community and Social Services
+OCC2010,2016,Community and Social Services
+OCC2010,2025,Community and Social Services
+OCC2010,2040,Community and Social Services
+OCC2010,2050,Community and Social Services
+OCC2010,2060,Community and Social Services
+OCC2010,2100,Legal
+OCC2010,2105,Legal
+OCC2010,2145,Legal
+OCC2010,2160,Legal
+OCC2010,2200,"Education, Training, and Library"
+OCC2010,2300,"Education, Training, and Library"
+OCC2010,2310,"Education, Training, and Library"
+OCC2010,2320,"Education, Training, and Library"
+OCC2010,2330,"Education, Training, and Library"
+OCC2010,2340,"Education, Training, and Library"
+OCC2010,2400,"Education, Training, and Library"
+OCC2010,2430,"Education, Training, and Library"
+OCC2010,2440,"Education, Training, and Library"
+OCC2010,2540,"Education, Training, and Library"
+OCC2010,2550,"Education, Training, and Library"
+OCC2010,2600,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2630,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2700,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2710,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2720,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2740,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2750,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2760,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2800,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2810,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2825,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2830,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2840,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2850,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2860,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2900,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2910,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,2920,"Arts, Design, Entertainment, Sports, and Media"
+OCC2010,3000,Healthcare Practitioners and Technical
+OCC2010,3010,Healthcare Practitioners and Technical
+OCC2010,3030,Healthcare Practitioners and Technical
+OCC2010,3040,Healthcare Practitioners and Technical
+OCC2010,3050,Healthcare Practitioners and Technical
+OCC2010,3060,Healthcare Practitioners and Technical
+OCC2010,3110,Healthcare Practitioners and Technical
+OCC2010,3120,Healthcare Practitioners and Technical
+OCC2010,3140,Healthcare Practitioners and Technical
+OCC2010,3150,Healthcare Practitioners and Technical
+OCC2010,3160,Healthcare Practitioners and Technical
+OCC2010,3200,Healthcare Practitioners and Technical
+OCC2010,3210,Healthcare Practitioners and Technical
+OCC2010,3220,Healthcare Practitioners and Technical
+OCC2010,3230,Healthcare Practitioners and Technical
+OCC2010,3245,Healthcare Practitioners and Technical
+OCC2010,3250,Healthcare Practitioners and Technical
+OCC2010,3255,Healthcare Practitioners and Technical
+OCC2010,3256,Healthcare Practitioners and Technical
+OCC2010,3258,Healthcare Practitioners and Technical
+OCC2010,3260,Healthcare Practitioners and Technical
+OCC2010,3300,Healthcare Practitioners and Technical
+OCC2010,3310,Healthcare Practitioners and Technical
+OCC2010,3320,Healthcare Practitioners and Technical
+OCC2010,3400,Healthcare Practitioners and Technical
+OCC2010,3420,Healthcare Practitioners and Technical
+OCC2010,3500,Healthcare Practitioners and Technical
+OCC2010,3510,Healthcare Practitioners and Technical
+OCC2010,3520,Healthcare Practitioners and Technical
+OCC2010,3535,Healthcare Practitioners and Technical
+OCC2010,3540,Healthcare Practitioners and Technical
+OCC2010,3600,Healthcare Support
+OCC2010,3610,Healthcare Support
+OCC2010,3620,Healthcare Support
+OCC2010,3630,Healthcare Support
+OCC2010,3640,Healthcare Support
+OCC2010,3645,Healthcare Support
+OCC2010,3646,Healthcare Support
+OCC2010,3647,Healthcare Support
+OCC2010,3648,Healthcare Support
+OCC2010,3649,Healthcare Support
+OCC2010,3655,Healthcare Support
+OCC2010,3700,Protective Service
+OCC2010,3710,Protective Service
+OCC2010,3720,Protective Service
+OCC2010,3730,Protective Service
+OCC2010,3740,Protective Service
+OCC2010,3750,Protective Service
+OCC2010,3800,Protective Service
+OCC2010,3820,Protective Service
+OCC2010,3840,Protective Service
+OCC2010,3850,Protective Service
+OCC2010,3900,Protective Service
+OCC2010,3910,Protective Service
+OCC2010,3930,Protective Service
+OCC2010,3940,Protective Service
+OCC2010,3945,Protective Service
+OCC2010,3955,Protective Service
+OCC2010,4000,Food Preparation and Serving
+OCC2010,4010,Food Preparation and Serving
+OCC2010,4020,Food Preparation and Serving
+OCC2010,4030,Food Preparation and Serving
+OCC2010,4040,Food Preparation and Serving
+OCC2010,4050,Food Preparation and Serving
+OCC2010,4060,Food Preparation and Serving
+OCC2010,4110,Food Preparation and Serving
+OCC2010,4120,Food Preparation and Serving
+OCC2010,4130,Food Preparation and Serving
+OCC2010,4140,Food Preparation and Serving
+OCC2010,4150,Food Preparation and Serving
+OCC2010,4200,Building and Grounds Cleaning and Maintenance
+OCC2010,4210,Building and Grounds Cleaning and Maintenance
+OCC2010,4220,Building and Grounds Cleaning and Maintenance
+OCC2010,4230,Building and Grounds Cleaning and Maintenance
+OCC2010,4240,Building and Grounds Cleaning and Maintenance
+OCC2010,4250,Building and Grounds Cleaning and Maintenance
+OCC2010,4300,Personal Care and Service
+OCC2010,4320,Personal Care and Service
+OCC2010,4340,Personal Care and Service
+OCC2010,4350,Personal Care and Service
+OCC2010,4400,Personal Care and Service
+OCC2010,4410,Personal Care and Service
+OCC2010,4420,Personal Care and Service
+OCC2010,4430,Personal Care and Service
+OCC2010,4460,Personal Care and Service
+OCC2010,4465,Personal Care and Service
+OCC2010,4500,Personal Care and Service
+OCC2010,4510,Personal Care and Service
+OCC2010,4520,Personal Care and Service
+OCC2010,4530,Personal Care and Service
+OCC2010,4540,Personal Care and Service
+OCC2010,4600,Personal Care and Service
+OCC2010,4610,Personal Care and Service
+OCC2010,4620,Personal Care and Service
+OCC2010,4640,Personal Care and Service
+OCC2010,4650,Personal Care and Service
+OCC2010,4700,Sales and Related
+OCC2010,4710,Sales and Related
+OCC2010,4720,Sales and Related
+OCC2010,4740,Sales and Related
+OCC2010,4750,Sales and Related
+OCC2010,4760,Sales and Related
+OCC2010,4800,Sales and Related
+OCC2010,4810,Sales and Related
+OCC2010,4820,Sales and Related
+OCC2010,4830,Sales and Related
+OCC2010,4840,Sales and Related
+OCC2010,4850,Sales and Related
+OCC2010,4900,Sales and Related
+OCC2010,4920,Sales and Related
+OCC2010,4930,Sales and Related
+OCC2010,4940,Sales and Related
+OCC2010,4950,Sales and Related
+OCC2010,4965,Sales and Related
+OCC2010,5000,Office and Administrative Support
+OCC2010,5010,Office and Administrative Support
+OCC2010,5020,Office and Administrative Support
+OCC2010,5030,Office and Administrative Support
+OCC2010,5100,Office and Administrative Support
+OCC2010,5110,Office and Administrative Support
+OCC2010,5120,Office and Administrative Support
+OCC2010,5130,Office and Administrative Support
+OCC2010,5140,Office and Administrative Support
+OCC2010,5150,Office and Administrative Support
+OCC2010,5160,Office and Administrative Support
+OCC2010,5165,Office and Administrative Support
+OCC2010,5200,Office and Administrative Support
+OCC2010,5220,Office and Administrative Support
+OCC2010,5230,Office and Administrative Support
+OCC2010,5240,Office and Administrative Support
+OCC2010,5250,Office and Administrative Support
+OCC2010,5260,Office and Administrative Support
+OCC2010,5300,Office and Administrative Support
+OCC2010,5310,Office and Administrative Support
+OCC2010,5320,Office and Administrative Support
+OCC2010,5330,Office and Administrative Support
+OCC2010,5340,Office and Administrative Support
+OCC2010,5350,Office and Administrative Support
+OCC2010,5360,Office and Administrative Support
+OCC2010,5400,Office and Administrative Support
+OCC2010,5410,Office and Administrative Support
+OCC2010,5420,Office and Administrative Support
+OCC2010,5500,Office and Administrative Support
+OCC2010,5510,Office and Administrative Support
+OCC2010,5520,Office and Administrative Support
+OCC2010,5530,Office and Administrative Support
+OCC2010,5540,Office and Administrative Support
+OCC2010,5550,Office and Administrative Support
+OCC2010,5560,Office and Administrative Support
+OCC2010,5600,Office and Administrative Support
+OCC2010,5610,Office and Administrative Support
+OCC2010,5620,Office and Administrative Support
+OCC2010,5630,Office and Administrative Support
+OCC2010,5700,Office and Administrative Support
+OCC2010,5800,Office and Administrative Support
+OCC2010,5810,Office and Administrative Support
+OCC2010,5820,Office and Administrative Support
+OCC2010,5840,Office and Administrative Support
+OCC2010,5850,Office and Administrative Support
+OCC2010,5860,Office and Administrative Support
+OCC2010,5900,Office and Administrative Support
+OCC2010,5910,Office and Administrative Support
+OCC2010,5920,Office and Administrative Support
+OCC2010,5940,Office and Administrative Support
+OCC2010,6005,"Farming, Fishing, and Forestry"
+OCC2010,6010,"Farming, Fishing, and Forestry"
+OCC2010,6040,"Farming, Fishing, and Forestry"
+OCC2010,6050,"Farming, Fishing, and Forestry"
+OCC2010,6100,"Farming, Fishing, and Forestry"
+OCC2010,6120,"Farming, Fishing, and Forestry"
+OCC2010,6130,"Farming, Fishing, and Forestry"
+OCC2010,6200,Construction
+OCC2010,6210,Construction
+OCC2010,6220,Construction
+OCC2010,6230,Construction
+OCC2010,6240,Construction
+OCC2010,6250,Construction
+OCC2010,6260,Construction
+OCC2010,6300,Construction
+OCC2010,6320,Construction
+OCC2010,6330,Construction
+OCC2010,6355,Construction
+OCC2010,6360,Construction
+OCC2010,6400,Construction
+OCC2010,6420,Construction
+OCC2010,6440,Construction
+OCC2010,6460,Construction
+OCC2010,6515,Construction
+OCC2010,6520,Construction
+OCC2010,6530,Construction
+OCC2010,6600,Construction
+OCC2010,6660,Construction
+OCC2010,6700,Construction
+OCC2010,6710,Construction
+OCC2010,6720,Construction
+OCC2010,6730,Construction
+OCC2010,6740,Construction
+OCC2010,6765,Construction
+OCC2010,6800,Extraction
+OCC2010,6820,Extraction
+OCC2010,6830,Extraction
+OCC2010,6840,Extraction
+OCC2010,6940,Extraction
+OCC2010,7000,"Installation, Maintenance, and Repair"
+OCC2010,7010,"Installation, Maintenance, and Repair"
+OCC2010,7020,"Installation, Maintenance, and Repair"
+OCC2010,7030,"Installation, Maintenance, and Repair"
+OCC2010,7040,"Installation, Maintenance, and Repair"
+OCC2010,7100,"Installation, Maintenance, and Repair"
+OCC2010,7110,"Installation, Maintenance, and Repair"
+OCC2010,7120,"Installation, Maintenance, and Repair"
+OCC2010,7130,"Installation, Maintenance, and Repair"
+OCC2010,7140,"Installation, Maintenance, and Repair"
+OCC2010,7150,"Installation, Maintenance, and Repair"
+OCC2010,7160,"Installation, Maintenance, and Repair"
+OCC2010,7200,"Installation, Maintenance, and Repair"
+OCC2010,7210,"Installation, Maintenance, and Repair"
+OCC2010,7220,"Installation, Maintenance, and Repair"
+OCC2010,7240,"Installation, Maintenance, and Repair"
+OCC2010,7260,"Installation, Maintenance, and Repair"
+OCC2010,7300,"Installation, Maintenance, and Repair"
+OCC2010,7315,"Installation, Maintenance, and Repair"
+OCC2010,7320,"Installation, Maintenance, and Repair"
+OCC2010,7330,"Installation, Maintenance, and Repair"
+OCC2010,7340,"Installation, Maintenance, and Repair"
+OCC2010,7350,"Installation, Maintenance, and Repair"
+OCC2010,7360,"Installation, Maintenance, and Repair"
+OCC2010,7410,"Installation, Maintenance, and Repair"
+OCC2010,7420,"Installation, Maintenance, and Repair"
+OCC2010,7430,"Installation, Maintenance, and Repair"
+OCC2010,7510,"Installation, Maintenance, and Repair"
+OCC2010,7540,"Installation, Maintenance, and Repair"
+OCC2010,7560,"Installation, Maintenance, and Repair"
+OCC2010,7610,"Installation, Maintenance, and Repair"
+OCC2010,7630,"Installation, Maintenance, and Repair"
+OCC2010,7700,Production
+OCC2010,7710,Production
+OCC2010,7720,Production
+OCC2010,7730,Production
+OCC2010,7740,Production
+OCC2010,7750,Production
+OCC2010,7800,Production
+OCC2010,7810,Production
+OCC2010,7830,Production
+OCC2010,7840,Production
+OCC2010,7850,Production
+OCC2010,7855,Production
+OCC2010,7900,Production
+OCC2010,7920,Production
+OCC2010,7930,Production
+OCC2010,7940,Production
+OCC2010,7950,Production
+OCC2010,8030,Production
+OCC2010,8040,Production
+OCC2010,8100,Production
+OCC2010,8130,Production
+OCC2010,8140,Production
+OCC2010,8220,Production
+OCC2010,8250,Production
+OCC2010,8255,Production
+OCC2010,8256,Production
+OCC2010,8300,Production
+OCC2010,8310,Production
+OCC2010,8320,Production
+OCC2010,8330,Production
+OCC2010,8350,Production
+OCC2010,8400,Production
+OCC2010,8410,Production
+OCC2010,8420,Production
+OCC2010,8450,Production
+OCC2010,8460,Production
+OCC2010,8500,Production
+OCC2010,8510,Production
+OCC2010,8530,Production
+OCC2010,8540,Production
+OCC2010,8550,Production
+OCC2010,8600,Production
+OCC2010,8610,Production
+OCC2010,8620,Production
+OCC2010,8630,Production
+OCC2010,8640,Production
+OCC2010,8650,Production
+OCC2010,8710,Production
+OCC2010,8720,Production
+OCC2010,8730,Production
+OCC2010,8740,Production
+OCC2010,8750,Production
+OCC2010,8760,Production
+OCC2010,8800,Production
+OCC2010,8810,Production
+OCC2010,8830,Production
+OCC2010,8850,Production
+OCC2010,8910,Production
+OCC2010,8920,Production
+OCC2010,8930,Production
+OCC2010,8940,Production
+OCC2010,8950,Production
+OCC2010,8965,Production
+OCC2010,9000,Transportation and Material Moving
+OCC2010,9030,Transportation and Material Moving
+OCC2010,9040,Transportation and Material Moving
+OCC2010,9050,Transportation and Material Moving
+OCC2010,9110,Transportation and Material Moving
+OCC2010,9120,Transportation and Material Moving
+OCC2010,9130,Transportation and Material Moving
+OCC2010,9140,Transportation and Material Moving
+OCC2010,9150,Transportation and Material Moving
+OCC2010,9200,Transportation and Material Moving
+OCC2010,9240,Transportation and Material Moving
+OCC2010,9260,Transportation and Material Moving
+OCC2010,9300,Transportation and Material Moving
+OCC2010,9310,Transportation and Material Moving
+OCC2010,9350,Transportation and Material Moving
+OCC2010,9360,Transportation and Material Moving
+OCC2010,9410,Transportation and Material Moving
+OCC2010,9415,Transportation and Material Moving
+OCC2010,9420,Transportation and Material Moving
+OCC2010,9510,Transportation and Material Moving
+OCC2010,9520,Transportation and Material Moving
+OCC2010,9560,Transportation and Material Moving
+OCC2010,9600,Transportation and Material Moving
+OCC2010,9610,Transportation and Material Moving
+OCC2010,9620,Transportation and Material Moving
+OCC2010,9630,Transportation and Material Moving
+OCC2010,9640,Transportation and Material Moving
+OCC2010,9650,Transportation and Material Moving
+OCC2010,9720,Transportation and Material Moving
+OCC2010,9750,Transportation and Material Moving
+OCC2010,9800,Military Specific
+OCC2010,9810,Military Specific
+OCC2010,9820,Military Specific
+OCC2010,9830,Military Specific
+OCC2010,9999,Not in Universe (unemployed Or Never Worked)
+OCC2010,400,"Management, Business, Science, and Arts"
