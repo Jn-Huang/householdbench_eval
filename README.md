@@ -2,12 +2,11 @@
 
 **Evaluating Large Language Models as Predictors of Household Economic Behavior**
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.07563-b31b1b.svg)](https://arxiv.org/abs/2610.07563)
 [![Website](https://img.shields.io/badge/Website-leaderboard-1f6feb.svg)](https://jn-huang.github.io/householdbench)
 [![Test set](https://img.shields.io/badge/%F0%9F%A4%97%20Test%20set-householdbench--eval-ffd21e.svg)](https://huggingface.co/datasets/householdbench/householdbench-eval)
 [![Full data](https://img.shields.io/badge/%F0%9F%A4%97%20Full%20data-householdbench--full-ffd21e.svg)](https://huggingface.co/datasets/householdbench/householdbench-full)
 [![Code license: MIT](https://img.shields.io/badge/Code%20license-MIT-green.svg)](LICENSE)
-<!-- TODO: replace XXXX.XXXXX with the arXiv identifier once the preprint is announced. -->
 
 HouseholdBench unites 6 U.S. household surveys and 32 prediction tasks spanning
 numeric, categorical and probabilistic outcomes, related to consumption, income,
@@ -356,9 +355,7 @@ If you find our work helpful, please cite:
 @article{huang2026householdbench,
   title   = {{HouseholdBench}: Evaluating Large Language Models as Predictors of Household Economic Behavior},
   author  = {Huang, Jin and Ferreras Garrucho, Diego and Xie, Yutong and Yuan, Walter M. and Mei, Qiaozhu and Lian, Chen and Hazell, Jonathon},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2610.07563},
   year    = {2026}
 }
 ```
-
-<!-- TODO: placeholder entry; fill in the arXiv identifier once the preprint is announced. -->
