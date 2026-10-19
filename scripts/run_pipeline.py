@@ -6,6 +6,8 @@ Use --check-inputs to verify all input fingerprints without rebuilding outputs.
 Use --jobs N to set how many source builders and tasks run at once (default: all
 available CPUs; --jobs 1 runs every step in sequence). The CPS, CEX Diary and CPS
 linking steps also use their own worker processes, whatever N is.
+Use --xgboost to also fit the XGBoost baselines; by default the build stops after
+the evaluation sample.
 """
 
 # %% 1. Paths, settings and required inputs
@@ -37,6 +39,10 @@ parser.add_argument(
          "Each step holds its data in memory, so lower this on machines with little RAM; "
          "the CPS builder's own workers need about 32 GB even with --jobs 1.",
 )
+parser.add_argument(
+    "--xgboost", action="store_true",
+    help="Also fit the XGBoost baselines and write their predictions (off by default).",
+)
 args = parser.parse_args()
 if args.jobs < 1:
     parser.error("--jobs must be at least 1.")
@@ -53,7 +59,7 @@ if not args.check_inputs and any(
 
 # Fail before construction if a required library or input file is missing.
 # Each source builder verifies its own checksums before reading its data.
-check_production_dependencies()
+check_production_dependencies(xgboost=args.xgboost)
 input_count = validate_source_inputs(root=PROJECT_ROOT, verify_checksums=args.check_inputs)
 if args.check_inputs:
     print(f"Verified {input_count} source/file entries; no products were rebuilt.")
@@ -131,14 +137,17 @@ subprocess.run(
 )
 
 
-# %% 5. Fit XGBoost baselines and publish predictions
+# %% 5. Fit XGBoost baselines and publish predictions (only with --xgboost)
 
 # The fitting stage uses 3_xgboost/model_seeds.csv and 2_tasks/task_registry.json.
 # Existing models are reused only when their input and specification hashes match.
-print("Fitting XGBoost baselines and generating predictions", flush=True)
-subprocess.run(
-    [sys.executable, str(PROJECT_ROOT / "scripts/3_xgboost/build.py"),
-     "--threads", str(XGBOOST_THREADS)],
-    cwd=PROJECT_ROOT, check=True,
-)
+if args.xgboost:
+    print("Fitting XGBoost baselines and generating predictions", flush=True)
+    subprocess.run(
+        [sys.executable, str(PROJECT_ROOT / "scripts/3_xgboost/build.py"),
+         "--threads", str(XGBOOST_THREADS)],
+        cwd=PROJECT_ROOT, check=True,
+    )
+else:
+    print("Skipped the XGBoost baselines; add --xgboost to fit them.", flush=True)
 print("HouseholdBench production build completed.", flush=True)

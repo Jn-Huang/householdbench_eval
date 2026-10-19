@@ -9,6 +9,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from scripts.utils import source_inputs  # noqa: E402
 from scripts.utils.source_inputs import validate_source_inputs  # noqa: E402
 
 HEADER = "source,path,source_version,acquisition_section,kind,role,sha256\n"
@@ -41,3 +42,12 @@ def test_a_malformed_checksum_is_rejected(tmp_path):
     (tmp_path / "fixed.csv").write_text("a\n")
     with pytest.raises(ValueError, match="Invalid input fingerprint"):
         validate_source_inputs(root=tmp_path, manifest_path=_manifest(tmp_path, [("fixed.csv", "abc")]))
+
+
+def test_xgboost_is_imported_only_for_the_baselines(monkeypatch):
+    imported = []
+    monkeypatch.setattr(source_inputs.importlib, "import_module", imported.append)
+    source_inputs.check_production_dependencies()
+    assert "xgboost" not in imported
+    source_inputs.check_production_dependencies(xgboost=True)
+    assert imported[-1] == "xgboost"

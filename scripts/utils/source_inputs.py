@@ -11,7 +11,8 @@ from scripts.utils.io import sha256_file
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_MANIFEST = PROJECT_ROOT / "scripts/1_preprocessing/input_manifest.csv"
-PRODUCTION_MODULES = ("numpy", "pandas", "pyarrow", "openpyxl", "xgboost")
+PRODUCTION_MODULES = ("numpy", "pandas", "pyarrow", "openpyxl")
+XGBOOST_MODULES = ("xgboost",)
 
 
 def input_sha256(path: Path) -> str:
@@ -43,8 +44,9 @@ def input_sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def check_production_dependencies() -> None:
-    for module in PRODUCTION_MODULES:
+def check_production_dependencies(xgboost: bool = False) -> None:
+    """Import the pipeline libraries; xgboost only when the baselines are fitted."""
+    for module in PRODUCTION_MODULES + (XGBOOST_MODULES if xgboost else ()):
         importlib.import_module(module)
 
 
