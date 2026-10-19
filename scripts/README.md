@@ -1,8 +1,8 @@
 # HouseholdBench code
 
 These scripts construct 32 household prediction tasks, render their prompts,
-assign training and test samples, and fit XGBoost baseline models. The 17 tasks we
-may redistribute are on Hugging Face; see
+assign training and test samples and, optionally, fit XGBoost baseline models. The 17
+tasks we may redistribute are on Hugging Face; see
 [Getting the data](../README.md#getting-the-data).
 
 ## Setup and execution
@@ -43,6 +43,9 @@ household_bench_eval/
    uv run python scripts/run_pipeline.py --check-inputs
    uv run python scripts/run_pipeline.py
    ```
+
+   The pipeline stops after the evaluation sample. Add `--xgboost` to also fit the
+   XGBoost baselines.
 
 `--jobs N` sets how many source builders and tasks run at once (default: all
 available CPUs; `--jobs 1` runs them in sequence). Builders that depend on others
@@ -138,7 +141,8 @@ post-cutoff rows with `release_date >= "2026-07-01"`; do not draw a new sample.
 | `output/` | Construction summaries, model files and diagnostics |
 
 The main script runs preprocessing, task construction, split assignment,
-evaluation-sample selection and baseline fitting. Preprocessing follows this order:
+evaluation-sample selection and, with `--xgboost`, baseline fitting. Preprocessing
+follows this order:
 
 ```text
 CPI → macro context → BEA → LAUS → FHFA → state macro panel →

@@ -309,3 +309,13 @@ def test_source_waves_cover_every_builder_once_and_respect_dependencies():
         assert position[upstream] < position[downstream]
     for survey in ["cex", "cex_diary", "cps", "cps_ui_policy", "census", "psid", "mich", "sce", "sce_financing"]:
         assert position[survey] > max(position["macro_context"], position["state_macro_panel"])
+
+
+def test_xgboost_baselines_run_only_with_the_flag():
+    source = (ROOT / "scripts/run_pipeline.py").read_text()
+    guards = [
+        node for node in ast.walk(ast.parse(source))
+        if isinstance(node, ast.If) and ast.unparse(node.test) == "args.xgboost"
+    ]
+    assert len(guards) == 1 and source.count("3_xgboost/build.py") == 1
+    assert "3_xgboost/build.py" in "\n".join(ast.unparse(stmt) for stmt in guards[0].body)

@@ -19,7 +19,7 @@ This repository holds everything needed to use the benchmark:
 | Part | Location | What it does |
 |---|---|---|
 | Scoring package | [`src/household_bench_eval/`](src/household_bench_eval) | Parses model responses and scores them with the paper's metrics |
-| Construction pipeline | [`scripts/`](scripts) | Rebuilds all 32 tasks from the raw survey files: tables, prompts, splits, the evaluation sample and the XGBoost reference |
+| Construction pipeline | [`scripts/`](scripts) | Rebuilds all 32 tasks from the raw survey files: tables, prompts, splits, the evaluation sample and, optionally, the XGBoost reference |
 
 ## Setup
 
@@ -35,8 +35,8 @@ uv sync --extra pipeline   # also the pinned libraries for rebuilding the data
 
 Python 3.12 or later is required; uv installs 3.13.5, the version the pipeline was
 built with, from `.python-version`. The `pipeline` extra pins the library versions used
-to build the released data. On macOS, XGBoost also needs `brew install libomp`. Run all
-commands from the repository root with `uv run`.
+to build the released data. On macOS, the optional XGBoost baselines also need
+`brew install libomp`. Run all commands from the repository root with `uv run`.
 
 ## Getting the data
 
@@ -104,9 +104,9 @@ in several periods.
 
 ## Rebuilding all 32 tasks
 
-The pipeline builds every task table, prompt file, split, the evaluation sample and the
-XGBoost reference predictions from the raw survey files. Details are in
-[`scripts/README.md`](scripts/README.md).
+The pipeline builds every task table, prompt file, split and the evaluation sample from
+the raw survey files; with `--xgboost` it also fits the XGBoost reference models.
+Details are in [`scripts/README.md`](scripts/README.md).
 
 1. **Set up the environment with the pipeline libraries** (see [Setup](#setup)):
 
@@ -160,11 +160,13 @@ XGBoost reference predictions from the raw survey files. Details are in
 
    Source builders and tasks run in parallel on all available CPUs. Use `--jobs N` to
    cap the number of simultaneous steps (each holds its data in memory), or `--jobs 1`
-   to run them one after another. The outputs are the same either way.
+   to run them one after another. The outputs are the same either way. The pipeline
+   stops after the evaluation sample; add `--xgboost` to also fit the XGBoost reference
+   models and write their predictions.
 
-6. **Find the outputs** in `data/householdbench/` (tables, prompts, splits, XGBoost
-   predictions), `data/householdbench_evalsample/` (the paper's test prompts) and
-   `output/` (construction summaries and diagnostics). To confirm you reproduced the
+6. **Find the outputs** in `data/householdbench/` (tables, prompts, splits, and XGBoost
+   predictions with `--xgboost`), `data/householdbench_evalsample/` (the paper's test
+   prompts) and `output/` (construction summaries and diagnostics). To confirm you reproduced the
    paper's test prompts for the 17 released tasks, compare the SHA-256 values in
    `data/householdbench_evalsample/manifest.csv` with the `manifest.csv` of the Hugging
    Face test set (the rebuild overwrites a copy kept in that folder).
@@ -174,10 +176,12 @@ XGBoost reference predictions from the raw survey files. Details are in
 Rows released by 31 January 2026 (at most 500,000 per task) are assigned to training,
 validation and pre-cutoff test in an 8:1:1 ratio by whole quarter (seed 42); five tasks
 with too few quarters assign rows instead. *Post-cutoff rows* were released after
-16 February 2026, the paper's evaluation cutoff. *Train (SFT)* is the paper's
-fine-tuning set: the first 6,000 training rows of each baseline task. *Test* columns are
-the evaluation sample. *Download* marks the 17 tasks released on Hugging Face; the
-others need a rebuild.
+16 February 2026, the paper's evaluation cutoff. The `post_cutoff_test` split (option B
+and a rebuild) holds every row released after 31 January 2026, including those released
+1–16 February; the paper's post-cutoff test prompts (option A) are a sample of the rows
+released after 16 February. *Train (SFT)* is the paper's fine-tuning set: the first 6,000
+training rows of each baseline task. *Test* columns are the evaluation sample.
+*Download* marks the 17 tasks released on Hugging Face; the others need a rebuild.
 
 | Task | Topic | Survey | Mode | Target type | Targets | Years | Rows | Post-cutoff rows | Train (SFT) | Test, pre | Test, post | Download |
 |---|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---|

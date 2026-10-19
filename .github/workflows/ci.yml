@@ -21,7 +21,7 @@ jobs:
       - name: Lint
         run: uv run ruff check src tests
       - name: Import the pipeline libraries
-        run: uv run python -c "import sys; sys.path.insert(0, '.'); from scripts.utils.source_inputs import check_production_dependencies; check_production_dependencies()"
+        run: uv run python -c "import sys; sys.path.insert(0, '.'); from scripts.utils.source_inputs import check_production_dependencies; check_production_dependencies(xgboost=True)"
       - name: Compile pipeline scripts
         run: uv run python -m compileall -q scripts
       - name: Test
